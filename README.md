@@ -19,7 +19,8 @@
 
 - **groups** feladat csoportok hierarchiája
 - **forms** űrlap elemek (field_var mező tartalmát kell használni a képlet leírásánál a **tasks** táblában)
-- **tasks** számítási képletek az egyes feladatokhozdescribe groups;
+- **tasks** számítási képletek az egyes feladatokhoz
+- **elements**, **lists**, **projects**, **users** táblákat nem használjuk még
 
 ## Működés
 
