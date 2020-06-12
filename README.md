@@ -24,4 +24,4 @@
 
 ## Működés
 
-js - AJAX - PHP - MySQL - js
+js - AJAX - PHP - MySQL - PHP - js
