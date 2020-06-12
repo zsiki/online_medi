@@ -1,0 +1,4 @@
+USE mysql;
+DROP DATABASE IF EXISTS medi;
+CREATE DATABASE medi CHARACTER SET utf8 COLLATE utf8_general_ci;
+USE medi;

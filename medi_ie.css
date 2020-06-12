@@ -1,0 +1,65 @@
+.none_cell {
+	background-color: white;
+	text-align: left;
+	border: none;
+	vertical-align: top;
+	font-weight: bolder;
+}
+
+.txt_cell {
+	background-color: white;
+	text-align: right;
+	border: 1px solid;
+	vertical-align: top;
+	padding-right: 2px;
+}
+
+.edit_cell {
+	background-color: white;
+	text-align: left;
+	border: 1px solid;
+	vertical-align: top;
+}
+
+.txt1_cell {
+	background-color: white;
+	text-align: right;
+	vertical-align: top;
+	padding-right: 2px;
+}
+
+.edit1_cell {
+	background-color: white;
+	text-align: left;
+	vertical-align: top;
+}
+
+.hlp_cell {
+	background-color: yellow;
+	text-align: left;
+	border: 1px solid;
+	vertical-align: top;
+	empty-cells: hide;
+}
+
+#blanket {
+/*
+	background-color:#111111;
+*/
+	opacity: 0.65;
+	filter:alpha(opacity=65);
+	position:absolute;
+	z-index: 9001;
+	top:0px;
+	left:0px;
+	width:100%;
+}
+
+#popUpDiv {
+	position:absolute;
+	background-color:#ffffff;
+	border: double;
+	width:650px;
+	height:550px;
+	z-index: 9002;
+}
