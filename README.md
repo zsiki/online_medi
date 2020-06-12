@@ -8,10 +8,10 @@
 
 ## Adatbázis felépítése:
 
-#. createdb.sql - adatbázis létrehozása
-#. medi_mysql.sql - adatbázis táblák létrehozása
-#. forms.sql - űrlap (adminisztratív) táblák feltöltése
-#. insert.sql - számítási képletek feltöltése
+1. createdb.sql - adatbázis létrehozása
+1. medi_mysql.sql - adatbázis táblák létrehozása
+1. forms.sql - űrlap (adminisztratív) táblák feltöltése
+1. insert.sql - számítási képletek feltöltése
 
 ## Működés
 
