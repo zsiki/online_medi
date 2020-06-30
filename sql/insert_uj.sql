@@ -8,16 +8,16 @@ INSERT INTO tasks (task_id,formula) VALUES (1,'Bk * ezr / 1000.0');
 INSERT INTO tasks (task_id,formula) VALUES (3,'Programba beégetett képlet');
 
 INSERT INTO tasks (task_id,formula) VALUES (111,'26 * Z * V * (1 + m1-1 + mi-1) + K');
-INSERT INTO tasks (task_id,formula) VALUES (112,'15 * Z * V * (1 + m1-1 + mi -1) + K');
-INSERT INTO tasks (task_id,formula) VALUES (113,'7 * Z * V * (1 + m1-1 + mi-1 + K');
+INSERT INTO tasks (task_id,formula) VALUES (112,'15 * Z * V * (1 + m1-1 + mi-1) + K');
+INSERT INTO tasks (task_id,formula) VALUES (113,'7 * Z * V * (1 + m1-1 + mi-1) + K');
 INSERT INTO tasks (task_id,formula) VALUES (114,'20 * Z * V * (1 + m1-1 + mi-1) + K');
 INSERT INTO tasks (task_id,formula) VALUES (115,'11 * Z * V * (1 + m1-1 + mi-1) + K');
-INSERT INTO tasks (task_id,formula) VALUES (116,'6 *Z * V * (1 + m1-1 + mi-1) + K');
+INSERT INTO tasks (task_id,formula) VALUES (116,'6 * Z * V * (1 + m1-1 + mi-1) + K');
 INSERT INTO tasks (task_id,formula) VALUES (117,'3 * Z * V * (1 + m1-1 + mi-1) + K');
-INSERT INTO tasks (task_id,formula) VALUES (118,'2 * Z * V * (1 + m1-1 + mi-1 + K');
+INSERT INTO tasks (task_id,formula) VALUES (118,'2 * Z * V * (1 + m1-1 + mi-1) + K');
 INSERT INTO tasks (task_id,formula) VALUES (119,'1.5 * Z * V * (1 + m1-1 + mi-1) + K');
-INSERT INTO tasks (task_id,formula) VALUES (121,'m1 * V * 0.14 * Z * (m2 + m3 + m4 + m5) * mi + K');
-INSERT INTO tasks (task_id,formula) VALUES (122,'m1 * V * 0.16 * Z * (m2 + m3 + m4) * mi + K');
+INSERT INTO tasks (task_id,formula) VALUES (121,'0.14 * Z * m1 * V * (1 + m2-1 + m3-1 + m4-1 + m5-1 + mi-1) + K');
+INSERT INTO tasks (task_id,formula) VALUES (122,'0.16 * Z * m1 * V * (1 + m2-1 + m3-1 + m4-1 + mi-1) + K');
 INSERT INTO tasks (task_id,formula) VALUES (211,'90 * Z * V * (1 + m1-1 + m2-1 + mi-1) + K');
 INSERT INTO tasks (task_id,formula) VALUES (212,'70 * Z * V * (1 + m1-1 + m2-1 + m3-1 + mi-1) + K');
 INSERT INTO tasks (task_id,formula) VALUES (213,'3 * Z * V * (1 + m1-1 + m2-1 + m3-1 + m4-1 + m5-1 + m6-1 + mi-1) + K');
@@ -89,20 +89,20 @@ INSERT INTO tasks (task_id,formula) VALUES (623,'40.0 * Z * V * (1 + m1-1 + m2-1
 INSERT INTO tasks (task_id,formula) VALUES (63,'0.06 * Z * V * (1 + m1-1 + m2-1 + m3-1 + m4-1 + m5-1 + m6-1 + mi-1) + K');
 
 -- TODO
-INSERT INTO groups (group_id,parent_id,name,ord) VALUES (1,NULL,'8.1 Állami alaptérképek',10);
-INSERT INTO groups (group_id,parent_id,name,ord) VALUES (11,1,'8.1.1 Állami földmérési alaptérképek készítése, felújítása (pontosítása)',20);
-INSERT INTO groups (group_id,parent_id,name,task_id,ord) VALUES (111,1,'8.1.1.a Belterületi újfelmérés',111,30);
-INSERT INTO groups (group_id,parent_id,name,task_id,ord) VALUES (112,1,'8.1.1.b Belterületi részleges újfelmérés, felújítás (pontosítás)',112,40);
-INSERT INTO groups (group_id,parent_id,name,task_id,ord) VALUES (113,1,'8.1.1.c Belterületi digitális átalakítás',113,50);
-INSERT INTO groups (group_id,parent_id,name,task_id,ord) VALUES (114,1,'8.1.1.d Különleges külterületi (zártkert) újfelmérés',114,60);
-INSERT INTO groups (group_id,parent_id,name,task_id,ord) VALUES (115,1,'8.1.1.e Különleges külterületi (zártkert) részleges újfelmérés, felújítás (pontosítás)',115,70);
-INSERT INTO groups (group_id,parent_id,name,task_id,ord) VALUES (116,1,'8.1.1.f Különleges külterületi (zártkert) digitális átalakítás',116,80);
-INSERT INTO groups (group_id,parent_id,name,task_id,ord) VALUES (117,1,'8.1.1.g Külterületi újfelmérés',117,90);
-INSERT INTO groups (group_id,parent_id,name,task_id,ord) VALUES (118,1,'8.1.1.h Külterületi részleges újfelmérés, felújítás (pontosítás)',118,100);
-INSERT INTO groups (group_id,parent_id,name,task_id,ord) VALUES (119,1,'8.1.1.i Külterületi digitális átalakítás',119,110);
-INSERT INTO groups (group_id,parent_id,name,ord) VALUES (12,1,'8.1.2 Állami topográfiai térépek készítése',120);
-INSERT INTO groups (group_id,parent_id,name,task_id,ord) VALUES (121,1,'8.1.2.1 Topográfiai adatgyűjtés',121,130);
-INSERT INTO groups (group_id,parent_id,name,task_id,ord) VALUES (122,1,'8.1.2.2. Topográfiai adatgyűjtés ellenőrzése',122,140);
+INSERT INTO groups (group_id,parent_id,name,ord) VALUES (1,NULL,'1 Állami földmérési alaptérképi adatbázis',10);
+INSERT INTO groups (group_id,parent_id,name,ord) VALUES (11,1,'1.1 Állami földmérési alaptérképek készítése, felújítása (pontosítása)',20);
+INSERT INTO groups (group_id,parent_id,name,task_id,ord) VALUES (111,1,'1.1.a Belterületi újfelmérés',111,30);
+INSERT INTO groups (group_id,parent_id,name,task_id,ord) VALUES (112,1,'1.1.b Belterületi részleges újfelmérés, felújítás (pontosítás)',112,40);
+INSERT INTO groups (group_id,parent_id,name,task_id,ord) VALUES (113,1,'1.1.c Belterületi digitális átalakítás',113,50);
+INSERT INTO groups (group_id,parent_id,name,task_id,ord) VALUES (114,1,'1.1.d Különleges külterületi (zártkerti) újfelmérés',114,60);
+INSERT INTO groups (group_id,parent_id,name,task_id,ord) VALUES (115,1,'1.1.e Különleges külterületi (zártkerti) részleges újfelmérés, felújítás (pontosítás)',115,70);
+INSERT INTO groups (group_id,parent_id,name,task_id,ord) VALUES (116,1,'1.1.f Különleges külterületi (zártkerti) digitális átalakítás',116,80);
+INSERT INTO groups (group_id,parent_id,name,task_id,ord) VALUES (117,1,'1.1.g Külterületi újfelmérés',117,90);
+INSERT INTO groups (group_id,parent_id,name,task_id,ord) VALUES (118,1,'1.1.h Külterületi részleges újfelmérés, felújítás (pontosítás)',118,100);
+INSERT INTO groups (group_id,parent_id,name,task_id,ord) VALUES (119,1,'1.1.i Külterületi digitális átalakítás',119,110);
+INSERT INTO groups (group_id,parent_id,name,ord) VALUES (12,1,'1.2 Állami topográfiai térképi adatbázis készítése',120);
+INSERT INTO groups (group_id,parent_id,name,task_id,ord) VALUES (121,1,'1.2.1 Topográfiai adatgyűjtés',121,130);
+INSERT INTO groups (group_id,parent_id,name,task_id,ord) VALUES (122,1,'1.2.2 Topográfiai adatgyűjtés ellenőrzése',122,140);
 
 INSERT INTO groups (group_id,parent_id,name,ord) VALUES (2,NULL,'8.2 Alappontsűrítés',150);
 INSERT INTO groups (group_id,parent_id,name,ord) VALUES (21,2,'8.2.1 Vízszintes alappontok',160);

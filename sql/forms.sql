@@ -32,7 +32,7 @@ INSERT INTO forms (task_id,field_id,field_var,field_txt,field_type,field_length,
 INSERT INTO forms (task_id,field_id,field_var,field_txt,field_type,field_length,field_list,field_help)
 	VALUES (111,2,NULL,'Módosító tényezők','none',NULL,NULL,NULL);
 INSERT INTO forms (task_id,field_id,field_var,field_txt,field_type,field_length,field_list,field_help)
-	VALUES (111,3,'m1','Település jellege alapján (m<sub>1</sub>)','real',10,NULL,'1.2 - megyejogú  város, főváros<br>1.0 - város<br>0.8 - község, kisváros');
+	VALUES (111,3,'m1','Település jellege alapján (m<sub>1</sub>)','real',10,NULL,'1.2 - megyei jogú város, főváros<br>1.0 - város<br>0.8 - község, kisváros');
 INSERT INTO forms (task_id,field_id,field_var,field_txt,field_type,field_length,field_list,field_help)
 	VALUES (111,4,'mi','Általános nehézség (m<sub>i</sub>)','real',10,NULL,'0.8-1.2 - terepmunkák esetén: domborzat, fedettség<br>0.8-1.2 - irodai munkák esetén: tagoltság, részletgazdagság, adatsűrűség<br>1.1-1.3 - téli terepi munkavégzés');
 INSERT INTO forms (task_id,field_id,field_var,field_txt,field_type,field_length,field_list,field_help)
@@ -43,7 +43,7 @@ INSERT INTO forms (task_id,field_id,field_var,field_txt,field_type,field_length,
 INSERT INTO forms (task_id,field_id,field_var,field_txt,field_type,field_length,field_list,field_help)
 	VALUES (112,2,NULL,'Módosító tényezők','none',NULL,NULL,NULL);
 INSERT INTO forms (task_id,field_id,field_var,field_txt,field_type,field_length,field_list,field_help)
-	VALUES (112,3,'m1','Település jellege alapján (m<sub>1</sub>)','real',10,NULL,'1.2 - megyejogú  város, főváros<br>1.0 - város<br>0.8 - község, kisváros');
+	VALUES (112,3,'m1','Település jellege alapján (m<sub>1</sub>)','real',10,NULL,'1.2 - megyei jogú város, főváros<br>1.0 - város<br>0.8 - község, kisváros');
 INSERT INTO forms (task_id,field_id,field_var,field_txt,field_type,field_length,field_list,field_help)
 	VALUES (112,4,'mi','Általános nehézség (m<sub>i</sub>)','real',10,NULL,'0.8-1.2 - terepmunkák esetén: domborzat, fedettség<br>0.8-1.2 - irodai munkák esetén: tagoltság, részletgazdagság, adatsűrűség<br>1.1-1.3 - téli terepi munkavégzés');
 INSERT INTO forms (task_id,field_id,field_var,field_txt,field_type,field_length,field_list,field_help)
@@ -54,7 +54,7 @@ INSERT INTO forms (task_id,field_id,field_var,field_txt,field_type,field_length,
 INSERT INTO forms (task_id,field_id,field_var,field_txt,field_type,field_length,field_list,field_help)
 	VALUES (113,2,NULL,'Módosító tényezők','none',NULL,NULL,NULL);
 INSERT INTO forms (task_id,field_id,field_var,field_txt,field_type,field_length,field_list,field_help)
-	VALUES (113,3,'m1','Település jellege alapján (m<sub>1</sub>)','real',10,NULL,'1.2 - megyejogú  város, főváros<br>1.0 - város<br>0.8 - község, kisváros');
+	VALUES (113,3,'m1','Település jellege alapján (m<sub>1</sub>)','real',10,NULL,'1.2 - megyei jogú város, főváros<br>1.0 - város<br>0.8 - község, kisváros');
 INSERT INTO forms (task_id,field_id,field_var,field_txt,field_type,field_length,field_list,field_help)
 	VALUES (113,4,'mi','Általános nehézség (m<sub>i</sub>)','real',10,NULL,'0.8-1.2 - terepmunkák esetén: domborzat, fedettség<br>0.8-1.2 - irodai munkák esetén: tagoltság, részletgazdagság, adatsűrűség<br>1.1-1.3 - téli terepi munkavégzés');
 INSERT INTO forms (task_id,field_id,field_var,field_txt,field_type,field_length,field_list,field_help)
@@ -65,7 +65,7 @@ INSERT INTO forms (task_id,field_id,field_var,field_txt,field_type,field_length,
 INSERT INTO forms (task_id,field_id,field_var,field_txt,field_type,field_length,field_list,field_help)
 	VALUES (114,2,NULL,'Módosító tényezők','none',NULL,NULL,NULL);
 INSERT INTO forms (task_id,field_id,field_var,field_txt,field_type,field_length,field_list,field_help)
-	VALUES (114,3,'m1','Mezőgazdasági művelés jellege alapján (m<sub>1</sub>)','real',10,NULL,'1.2 - üdülőövezet<br>0.8 - mezőgazdasági művelés a jellemző');
+	VALUES (114,3,'m1','Mezőgazdasági művelés jellege alapján (m<sub>1</sub>)','real',10,NULL,'1.2 - a zártkert inkább üdülőövezetként funkcionál<br>0.8 - elsősorban mezőgazdasági művelés a jellemző');
 INSERT INTO forms (task_id,field_id,field_var,field_txt,field_type,field_length,field_list,field_help)
 	VALUES (114,4,'mi','Általános nehézség (m<sub>i</sub>)','real',10,NULL,'0.8-1.2 - terepmunkák esetén: domborzat, fedettség<br>0.8-1.2 - irodai munkák esetén: tagoltság, részletgazdagság, adatsűrűség<br>1.1-1.3 - téli terepi munkavégzés');
 INSERT INTO forms (task_id,field_id,field_var,field_txt,field_type,field_length,field_list,field_help)
@@ -76,7 +76,7 @@ INSERT INTO forms (task_id,field_id,field_var,field_txt,field_type,field_length,
 INSERT INTO forms (task_id,field_id,field_var,field_txt,field_type,field_length,field_list,field_help)
 	VALUES (115,2,NULL,'Módosító tényezők','none',NULL,NULL,NULL);
 INSERT INTO forms (task_id,field_id,field_var,field_txt,field_type,field_length,field_list,field_help)
-	VALUES (115,3,'m1','Mezőgazdasági művelés jellege alapján (m<sub>1</sub>)','real',10,NULL,'1.2 - üdülőövezet<br>0.8 - mezőgazdasági művelés a jellemző');
+	VALUES (115,3,'m1','Mezőgazdasági művelés jellege alapján (m<sub>1</sub>)','real',10,NULL,'1.2 - a zártkert inkább üdülőövezetként funkcionál<br>0.8 - elsősorban mezőgazdasági művelés a jellemző');
 INSERT INTO forms (task_id,field_id,field_var,field_txt,field_type,field_length,field_list,field_help)
 	VALUES (115,4,'mi','Általános nehézség (m<sub>i</sub>)','real',10,NULL,'0.8-1.2 - terepmunkák esetén: domborzat, fedettség<br>0.8-1.2 - irodai munkák esetén: tagoltság, részletgazdagság, adatsűrűség<br>1.1-1.3 - téli terepi munkavégzés');
 INSERT INTO forms (task_id,field_id,field_var,field_txt,field_type,field_length,field_list,field_help)
@@ -87,7 +87,7 @@ INSERT INTO forms (task_id,field_id,field_var,field_txt,field_type,field_length,
 INSERT INTO forms (task_id,field_id,field_var,field_txt,field_type,field_length,field_list,field_help)
 	VALUES (116,2,NULL,'Módosító tényezők','none',NULL,NULL,NULL);
 INSERT INTO forms (task_id,field_id,field_var,field_txt,field_type,field_length,field_list,field_help)
-	VALUES (116,3,'m1','Mezőgazdasági művelés jellege alapján (m<sub>1</sub>)','real',10,NULL,'1.2 - üdülőövezet<br>0.8 - mezőgazdasági művelés a jellemző');
+	VALUES (116,3,'m1','Mezőgazdasági művelés jellege alapján (m<sub>1</sub>)','real',10,NULL,'1.2 - a zártkert inkább üdülőövezetként funkcionál<br>0.8 - elsősorban mezőgazdasági művelés a jellemző');
 INSERT INTO forms (task_id,field_id,field_var,field_txt,field_type,field_length,field_list,field_help)
 	VALUES (116,4,'mi','Általános nehézség (m<sub>i</sub>)','real',10,NULL,'0.8-1.2 - terepmunkák esetén: domborzat, fedettség<br>0.8-1.2 - irodai munkák esetén: tagoltság, részletgazdagság, adatsűrűség<br>1.1-1.3 - téli terepi munkavégzés');
 INSERT INTO forms (task_id,field_id,field_var,field_txt,field_type,field_length,field_list,field_help)
@@ -98,7 +98,7 @@ INSERT INTO forms (task_id,field_id,field_var,field_txt,field_type,field_length,
 INSERT INTO forms (task_id,field_id,field_var,field_txt,field_type,field_length,field_list,field_help)
 	VALUES (117,2,NULL,'Módosító tényezők','none',NULL,NULL,NULL);
 INSERT INTO forms (task_id,field_id,field_var,field_txt,field_type,field_length,field_list,field_help)
-	VALUES (117,3,'m1','Mezőgazdasági művelés jellege alapján (m<sub>1</sub>)','real',10,NULL,'2.5 - zártkert jellegű művelés<br>1.2 - elsősorban szántóföldi mezőgazdasági művelés a jellemzó<br>0.8 - elsősorban erdő művelési ág a jellemző');
+	VALUES (117,3,'m1','Mezőgazdasági művelés jellege alapján (m<sub>1</sub>)','real',10,NULL,'2.5 - zártkert jellegű művelés a jellemző<br>1.2 - elsősorban mezőgazdasági művelés a jellemzó<br>0.8 - elsősorban erdő művelés a jellemző');
 INSERT INTO forms (task_id,field_id,field_var,field_txt,field_type,field_length,field_list,field_help)
 	VALUES (117,4,'mi','Általános nehézség (m<sub>i</sub>)','real',10,NULL,'0.8-1.2 - terepmunkák esetén: domborzat, fedettség<br>0.8-1.2 - irodai munkák esetén: tagoltság, részletgazdagság, adatsűrűség<br>1.1-1.3 - téli terepi munkavégzés');
 INSERT INTO forms (task_id,field_id,field_var,field_txt,field_type,field_length,field_list,field_help)
@@ -109,7 +109,7 @@ INSERT INTO forms (task_id,field_id,field_var,field_txt,field_type,field_length,
 INSERT INTO forms (task_id,field_id,field_var,field_txt,field_type,field_length,field_list,field_help)
 	VALUES (118,2,NULL,'Módosító tényezők','none',NULL,NULL,NULL);
 INSERT INTO forms (task_id,field_id,field_var,field_txt,field_type,field_length,field_list,field_help)
-	VALUES (118,3,'m1','Mezőgazdasági művelés jellege alapján (m<sub>1</sub>)','real',10,NULL,'2.5 - zártkert jellegű művelés<br>1.2 - elsősorban szántóföldi mezőgazdasági művelés a jellemzó<br>0.8 - elsősorban erdő művelési ág a jellemző');
+	VALUES (118,3,'m1','Mezőgazdasági művelés jellege alapján (m<sub>1</sub>)','real',10,NULL,'2.5 - zártkert jellegű művelés a jellemző<br>1.2 - elsősorban mezőgazdasági művelés a jellemzó<br>0.8 - elsősorban erdő művelés a jellemző');
 INSERT INTO forms (task_id,field_id,field_var,field_txt,field_type,field_length,field_list,field_help)
 	VALUES (118,4,'mi','Általános nehézség (m<sub>i</sub>)','real',10,NULL,'0.8-1.2 - terepmunkák esetén: domborzat, fedettség<br>0.8-1.2 - irodai munkák esetén: tagoltság, részletgazdagság, adatsűrűség<br>1.1-1.3 - téli terepi munkavégzés');
 INSERT INTO forms (task_id,field_id,field_var,field_txt,field_type,field_length,field_list,field_help)
@@ -120,7 +120,7 @@ INSERT INTO forms (task_id,field_id,field_var,field_txt,field_type,field_length,
 INSERT INTO forms (task_id,field_id,field_var,field_txt,field_type,field_length,field_list,field_help)
 	VALUES (119,2,NULL,'Módosító tényezők','none',NULL,NULL,NULL);
 INSERT INTO forms (task_id,field_id,field_var,field_txt,field_type,field_length,field_list,field_help)
-	VALUES (119,3,'m1','Mezőgazdasági művelés jellege alapján (m<sub>1</sub>)','real',10,NULL,'2.5 - zártkert jellegű művelés<br>1.2 - elsősorban szántóföldi mezőgazdasági művelés a jellemzó<br>0.8 - elsősorban erdő művelési ág a jellemző');
+	VALUES (119,3,'m1','Mezőgazdasági művelés jellege alapján (m<sub>1</sub>)','real',10,NULL,'2.5 - zártkert jellegű művelés a jellemző<br>1.2 - elsősorban mezőgazdasági művelés a jellemzó<br>0.8 - elsősorban erdő művelés a jellemző');
 INSERT INTO forms (task_id,field_id,field_var,field_txt,field_type,field_length,field_list,field_help)
 	VALUES (119,4,'mi','Általános nehézség (m<sub>i</sub>)','real',10,NULL,'0.8-1.2 - terepmunkák esetén: domborzat, fedettség<br>0.8-1.2 - irodai munkák esetén: tagoltság, részletgazdagság, adatsűrűség<br>1.1-1.3 - téli terepi munkavégzés');
 INSERT INTO forms (task_id,field_id,field_var,field_txt,field_type,field_length,field_list,field_help)
@@ -132,29 +132,29 @@ INSERT INTO forms (task_id,field_id,field_var,field_txt,field_type,field_length,
 INSERT INTO forms (task_id,field_id,field_var,field_txt,field_type,field_length,field_list,field_help)
 	VALUES (121,2,NULL,'Módosító tényezők','none',NULL,NULL,NULL);
 INSERT INTO forms (task_id,field_id,field_var,field_txt,field_type,field_length,field_list,field_help)
-	VALUES (121,3,'m1','Munkaterület méret alapján (m<sub>1</sub>)','real',10,NULL,'2.1 - a megrendelt munkaterület kisebb mint 5000 km<sup>2</sup><br>1.6 - a megrendelt munkaterület 5001-93036 km<sup>2</sup> között van<br>1.0 - a megrendelt munkaterület nagyobb mint 93036 km<sup>2</sup>');
+	VALUES (121,3,'m1','Munkaterület méret alapján (m<sub>1</sub>)','real',10,NULL,'2.1 - a megrendelt munkaterület kisebb mint 50000 km<sup>2</sup><br>1.6 - a megrendelt munkaterület 50001-93036 km<sup>2</sup> között van<br>1.0 - a megrendelt munkaterület nagyobb mint 93036 km<sup>2</sup>');
 INSERT INTO forms (task_id,field_id,field_var,field_txt,field_type,field_length,field_list,field_help)
-	VALUES (121,4,'m2','Méretarány alapján (m<sub>2</sub>)','real',10,NULL,'3.7 - a méretarány 1:10 000<br>2.9 - a méretarány 1:25 000<br>1.0 - a méretarány 1:50 000');
+	VALUES (121,4,'m2','Méretarány alapján (m<sub>2</sub>)','real',10,NULL,'3.7 - a méretarány (adatsűrűség) együtthatója 1:10 000<br>2.9 - a méretarány (adatsűrűség) együtthatója 1:25 000<br>1.0 - a méretarány (adatsűrűség) együtthatója 1:50 000');
 INSERT INTO forms (task_id,field_id,field_var,field_txt,field_type,field_length,field_list,field_help)
-	VALUES (121,5,'m3','Adatszerkezet alapján (m<sub>3</sub>)','real',10,NULL,'2.2 - adatbázis építés<br>1.0 - nem kell adatbázis építés');
+	VALUES (121,5,'m3','Adatszerkezet alapján (m<sub>3</sub>)','real',10,NULL,'2.2 - kell adatbázis építés (leadás térinformatikai adatbázis formátumban)<br>1.0 - nem kell adatbázis építés (leadás vektoros, CAD formátumban)');
 INSERT INTO forms (task_id,field_id,field_var,field_txt,field_type,field_length,field_list,field_help)
-	VALUES (121,6,'m4','Külső adatforrások alapján (m<sub>4</sub>)','real',10,NULL,'1.6 - külső adatforrások 1/3-a nem digitális<br>1.5 - külső adatforrások száma 3-6 között<br>1.2 - külső adatforrások száma 1-3 között<br>1.0 - nem kell külső adatforrást bedolgozni');
+	VALUES (121,6,'m4','Külső adatforrások alapján (m<sub>4</sub>)','real',10,NULL,'1.6 - a külső adatforrások 1/3–a nem digitális (adatbázis jellegű) formátumban áll rendelkezésre (pl. szkennelt képek, térképek, szöveges leírások, stb.)<br>1.5 - a bedolgozandó (figyelembe veendő) külső adatforrások száma 3–6 között van<br>1.2 - a bedolgozandó (figyelembe veendő) külső adatforrások száma 1–3 között van<br>1.0 - nem kell külső adatforrásokat bedolgozni');
 INSERT INTO forms (task_id,field_id,field_var,field_txt,field_type,field_length,field_list,field_help)
-	VALUES (121,7,'m5','Terepi munkavégzés alapján (m<sub>5</sub>)','real',10,NULL,'4.5 - terepi felmérés<br>2.0 - terepi helyszinelés<br>1.0 - nincs terepi munkavégzés');
+	VALUES (121,7,'m5','Terepi munkavégzés alapján (m<sub>5</sub>)','real',10,NULL,'4.5 - terepi felmérés van (kiértékelés után a teljes terület bejárása, felmérése szükség szerint)<br>2.0 - terepi helyszínelés van (kiértékelés után, a nem azonosítható objektumokra, nem felmérés jelleggel)<br>1.0 - nincs szükség terepi munkavégzésre');
 INSERT INTO forms (task_id,field_id,field_var,field_txt,field_type,field_length,field_list,field_help)
 	VALUES (121,8,'mi','Általános nehézség (m<sub>i</sub>)','real',10,NULL,'0.8-1.2 - terepmunkák esetén: domborzat, fedettség<br>0.8-1.2 - irodai munkák esetén: tagoltság, részletgazdagság, adatsűrűség<br>1.2-1.8 - sürgősségi tényező esetén<br>1.1-1.3 - téli terepi munkavégzés<br>0.8 - összetett, egymásra épülő feladatok');
 INSERT INTO forms (task_id,field_id,field_var,field_txt,field_type,field_length,field_list,field_help)
 	VALUES (121,9,'K','Kiegészítő költségek (K)','real',10,NULL,'- többletsokszorosítás és azok kezelési és postázási költsége<br>- különleges igényű dokumentálás költségei<br>- stb.');
 
-/*** topografiai datgyujtes ellenrzese ***/
+/*** topografiai adatgyujtes ellenorzese ***/
 INSERT INTO forms (task_id,field_id,field_var,field_txt,field_type,field_length,field_list,field_help)
 	VALUES (122,1,'V','Terület km<sup>2</sup> (V)','real',10,NULL,'');
 INSERT INTO forms (task_id,field_id,field_var,field_txt,field_type,field_length,field_list,field_help)
 	VALUES (122,2,NULL,'Módosító tényezők','none',NULL,NULL,NULL);
 INSERT INTO forms (task_id,field_id,field_var,field_txt,field_type,field_length,field_list,field_help)
-	VALUES (122,3,'m1','Munkaterület méret alapján (m<sub>1</sub>)','real',10,NULL,'2.1 - a megrendelt munkaterület kisebb mint 5000 km<sup>2</sup><br>1.6 - a megrendelt munkaterület 5001-93036 km<sup>2</sup> között van<br>1.0 - a megrendelt munkaterület nagyobb mint 93036 km<sup>2</sup>');
+	VALUES (122,3,'m1','Munkaterület méret alapján (m<sub>1</sub>)','real',10,NULL,'2.1 - a megrendelt munkaterület kisebb mint 50000 km<sup>2</sup><br>1.6 - a megrendelt munkaterület 50001-93036 km<sup>2</sup> között van<br>1.0 - a megrendelt munkaterület nagyobb mint 93036 km<sup>2</sup>');
 INSERT INTO forms (task_id,field_id,field_var,field_txt,field_type,field_length,field_list,field_help)
-	VALUES (122,4,'m2','Méretarány alapján (m<sub>2</sub>)','real',10,NULL,'3.7 - a méretarány 1:10 000<br>2.9 - a méretarány 1:25 000<br>1.0 - a méretarány 1:50 000');
+	VALUES (122,4,'m2','Méretarány alapján (m<sub>2</sub>)','real',10,NULL,'3.7 - a méretarány (adatsűrűség) együtthatója 1:10 000<br>2.9 - a méretarány (adatsűrűség) együtthatója 1:25 000<br>1.0 - a méretarány (adatsűrűség) együtthatója 1:50 000');
 INSERT INTO forms (task_id,field_id,field_var,field_txt,field_type,field_length,field_list,field_help)
 	VALUES (122,5,'m3','Ellenőrzés alapján (m<sub>3</sub>)','real',10,NULL,'1.7 - vizuális ellenőrzés (teljesség, adatsűrűség, eloszlás, hálózatos elemek, kiértékelés pontosságának vizsgálata, kartográfia ellenőrzése)<br>1.0 - szoftveres ellenőrzések (geometria, topológia, struktúra, konzisztencia vizsgálata)');
 INSERT INTO forms (task_id,field_id,field_var,field_txt,field_type,field_length,field_list,field_help)
