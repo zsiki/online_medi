@@ -170,7 +170,7 @@ INSERT INTO forms (task_id,field_id,field_var,field_txt,field_type,field_length,
 INSERT INTO forms (task_id,field_id,field_var,field_txt,field_type,field_length,field_list,field_help)
 	VALUES (211,2,NULL,'Módosító tényezők','none',NULL,NULL,NULL);
 INSERT INTO forms (task_id,field_id,field_var,field_txt,field_type,field_length,field_list,field_help)
-	VALUES (211,3,'m1','Művelet alapján (m<sub>1</sub>)','real',10,NULL,'0.6 - pont helyreállításánál<br>0.8 - pont áthelyezésénél<br> 1.0 - pont pótlásnál');
+	VALUES (211,3,'m1','Művelet alapján (m<sub>1</sub>)','real',10,NULL,'0.6 - pont helyreállításánál<br>0.8 - pont áthelyezésénél<br>1.0 - pont pótlásnál');
 INSERT INTO forms (task_id,field_id,field_var,field_txt,field_type,field_length,field_list,field_help)
 	VALUES (211,4,'m2','Talajminőség alapján (m<sub>2</sub>)','real',10,NULL,'0.8-1.2 - talajminőség (kézi erővel fúrható, feltöltött, tömörített, kavicsos, stb.)');
 INSERT INTO forms (task_id,field_id,field_var,field_txt,field_type,field_length,field_list,field_help)
@@ -184,7 +184,7 @@ INSERT INTO forms (task_id,field_id,field_var,field_txt,field_type,field_length,
 INSERT INTO forms (task_id,field_id,field_var,field_txt,field_type,field_length,field_list,field_help)
 	VALUES (212,2,NULL,'Módosító tényezők','none',NULL,NULL,NULL);
 INSERT INTO forms (task_id,field_id,field_var,field_txt,field_type,field_length,field_list,field_help)
-	VALUES (212,3,'m1','Művelet alapján (m<sub>1</sub>)','real',10,NULL,'0.6 - pont helyreállításánál<br>0.8 - pont áthelyezésénél<br> 1.0 - pont pótlásnál');
+	VALUES (212,3,'m1','Művelet alapján (m<sub>1</sub>)','real',10,NULL,'0.6 - pont helyreállításánál<br>0.8 - pont áthelyezésénél<br>1.0 - pont pótlásnál');
 INSERT INTO forms (task_id,field_id,field_var,field_txt,field_type,field_length,field_list,field_help)
 	VALUES (212,4,'m2','Rendűség alapján (m<sub>2</sub>)','real',10,NULL,'1.2 - IV. rendű főpont esetén<br>1.5 - III. rendű pont esetén<br>0.3 - felsőrendű pont esetén iránypontként (amennyiben katalógus szerint szükséges)');
 INSERT INTO forms (task_id,field_id,field_var,field_txt,field_type,field_length,field_list,field_help)
@@ -202,7 +202,7 @@ INSERT INTO forms (task_id,field_id,field_var,field_txt,field_type,field_length,
 INSERT INTO forms (task_id,field_id,field_var,field_txt,field_type,field_length,field_list,field_help)
 	VALUES (213,3,'m1','Állandósítási mód alapján (m<sub>1</sub>)','real',10,NULL,'0.6-1.2 - állandósítási mód (HILTI, csap, kő stb.)');
 INSERT INTO forms (task_id,field_id,field_var,field_txt,field_type,field_length,field_list,field_help)
-	VALUES (213,4,'m2','Pontok száma alapján (m<sub>2</sub>)','real',10,NULL,'1.0 - ha a pontok száma 4 és 10 között van<br>0.8 - ha a pontok száma több, mint 10');
+	VALUES (213,4,'m2','Pontok száma alapján (m<sub>2</sub>)','real',10,NULL,'1.0 - ha a pontok száma 4 és 10 között van<br>0.8 - ha a pontok száma több mint 10');
 INSERT INTO forms (task_id,field_id,field_var,field_txt,field_type,field_length,field_list,field_help)
 	VALUES (213,5,'m3','Rendűség alapján (m<sub>3</sub>)','real',10,NULL,'1.2 - V. rendű pont');
 INSERT INTO forms (task_id,field_id,field_var,field_txt,field_type,field_length,field_list,field_help)
@@ -224,7 +224,7 @@ INSERT INTO forms (task_id,field_id,field_var,field_txt,field_type,field_length,
 INSERT INTO forms (task_id,field_id,field_var,field_txt,field_type,field_length,field_list,field_help)
 	VALUES (214,3,'m1','Jelölési mód alapján (m<sub>1</sub>)','real',10,NULL,'0.6-1.2 - jelölési mód (festés, letűzött papír, stb.)');
 INSERT INTO forms (task_id,field_id,field_var,field_txt,field_type,field_length,field_list,field_help)
-	VALUES (214,4,'m2','Pontok száma alapján (m<sub>2</sub>)','real',10,NULL,'1.0 - ha a pontok száma 4 és 10 között van<br>0.8 - ha a pontok száma több, mint 10');
+	VALUES (214,4,'m2','Pontok száma alapján (m<sub>2</sub>)','real',10,NULL,'1.0 - ha a pontok száma 4 és 10 között van<br>0.8 - ha a pontok száma több mint 10');
 INSERT INTO forms (task_id,field_id,field_var,field_txt,field_type,field_length,field_list,field_help)
 	VALUES (214,5,'mi','Általános nehézség (m<sub>i</sub>)','real',10,NULL,'0.8-1.2 - terepmunkák esetén: domborzat, fedettség<br>0.8-1.2 - irodai munkák esetén: tagoltság, részletgazdagság, adatsűrűség<br>1.2 - állami alapmunkák esetén<br>1.2-1.8 - sürgősségi tényező esetén<br>1.1-1.3 - téli terepi munkavégzés<br>0.8 - összetett, egymásra épülő feladatok');
 INSERT INTO forms (task_id,field_id,field_var,field_txt,field_type,field_length,field_list,field_help)
@@ -238,7 +238,7 @@ INSERT INTO forms (task_id,field_id,field_var,field_txt,field_type,field_length,
 INSERT INTO forms (task_id,field_id,field_var,field_txt,field_type,field_length,field_list,field_help)
 	VALUES (215,3,'m1','Meghatározás alapján (m<sub>1</sub>)','real',10,NULL,'1.0 - 2D meghatározás<br>1.3 - 3D meghatározás');
 INSERT INTO forms (task_id,field_id,field_var,field_txt,field_type,field_length,field_list,field_help)
-	VALUES (215,4,'m2','Pontok száma alapján (m<sub>2</sub>)','real',10,NULL,'1.0 - ha a pontok száma 4 és 10 között van<br>0.8 - ha a pontok száma több, mint 10');
+	VALUES (215,4,'m2','Pontok száma alapján (m<sub>2</sub>)','real',10,NULL,'1.0 - ha a pontok száma 4 és 10 között van<br>0.8 - ha a pontok száma több mint 10');
 INSERT INTO forms (task_id,field_id,field_var,field_txt,field_type,field_length,field_list,field_help)
 	VALUES (215,5,'mi','Általános nehézség (m<sub>i</sub>)','real',10,NULL,'0.8-1.2 - terepmunkák esetén: domborzat, fedettség<br>0.8-1.2 - irodai munkák esetén: tagoltság, részletgazdagság, adatsűrűség<br>1.2 - állami alapmunkák esetén<br>1.2-1.8 - sürgősségi tényező esetén<br>1.1-1.3 - téli terepi munkavégzés<br>0.8 - összetett, egymásra épülő feladatok');
 INSERT INTO forms (task_id,field_id,field_var,field_txt,field_type,field_length,field_list,field_help)
@@ -252,9 +252,9 @@ INSERT INTO forms (task_id,field_id,field_var,field_txt,field_type,field_length,
 INSERT INTO forms (task_id,field_id,field_var,field_txt,field_type,field_length,field_list,field_help)
 	VALUES (221,3,'m1','Hely alapján (m<sub>1</sub>)','real',10,NULL,'0.8 - számozás nélküli úton<br>1.0 - 3 és 4 számjegyű úton<br>1.2 - 1 és 2 számjegyű úton');
 INSERT INTO forms (task_id,field_id,field_var,field_txt,field_type,field_length,field_list,field_help)
-	VALUES (221,4,'m2','Magasságkülönbség alapján (m<sub>2</sub>)','real',10,NULL,'1.0 - km-es szintkülönbség 20m<br>1.15 - km-es szintkülönbség 50m<br>1.3 -  km-es szintkülönbség 100m felett<br>');
+	VALUES (221,4,'m2','Magasságkülönbség alapján (m<sub>2</sub>)','real',10,NULL,'1.0 - km-es szintkülönbség 20m<br>1.15 - km-es szintkülönbség 50m<br>1.3 - km-es szintkülönbség 100m felett<br>');
 INSERT INTO forms (task_id,field_id,field_var,field_txt,field_type,field_length,field_list,field_help)
-	VALUES (221,5,'m3','Fekvés alapján (m<sub>3</sub>)','real',10,NULL,'1.0 - lakott területen kívül<br>1.1 - átlagosan beépített területen<br>1.2 -  Budapest illetve nagyvárosok területén<br>');
+	VALUES (221,5,'m3','Fekvés alapján (m<sub>3</sub>)','real',10,NULL,'1.0 - lakott területen kívül<br>1.1 - átlagosan beépített területen<br>1.2 - Budapest illetve nagyvárosok területén<br>');
 INSERT INTO forms (task_id,field_id,field_var,field_txt,field_type,field_length,field_list,field_help)
 	VALUES (221,6,'m4','Rendűség alapján (m<sub>4</sub>)','real',10,NULL,'0.6 - V. rendű szintezés esetén<br>0.9 - IV. rendű szintezés esetén<br>1.2 - III. rendű szintezés esetén<br>1.4 - II. rendű szintezés esetén<br>1.8 - I. rendű szintezés esetén');
 INSERT INTO forms (task_id,field_id,field_var,field_txt,field_type,field_length,field_list,field_help)
@@ -292,7 +292,7 @@ INSERT INTO forms (task_id,field_id,field_var,field_txt,field_type,field_length,
 INSERT INTO forms (task_id,field_id,field_var,field_txt,field_type,field_length,field_list,field_help)
 	VALUES (2223,2,NULL,'Módosító tényezők','none',NULL,NULL,NULL);
 INSERT INTO forms (task_id,field_id,field_var,field_txt,field_type,field_length,field_list,field_help)
-	VALUES (2223,3,'m1','Jelölés alapján (m<sub>1</sub>)','real',10,NULL,'0.8 - KA kő vagy oszlop elhelyzése<br>1.0 - szintezési csap vagy gomb elhelyezése');
+	VALUES (2223,3,'m1','Jelölés alapján (m<sub>1</sub>)','real',10,NULL,'0.8 - KA kő vagy jelzőoszlop elhelyzése esetén<br>1.0 - szintezési csap vagy gomb elhelyezése esetén');
 INSERT INTO forms (task_id,field_id,field_var,field_txt,field_type,field_length,field_list,field_help)
 	VALUES (2223,4,'mi','Általános nehézség (m<sub>i</sub>)','real',10,NULL,'0.8-1.2 - terepmunkák esetén: domborzat, fedettség<br>0.8-1.2 - irodai munkák esetén: tagoltság, részletgazdagság, adatsűrűség<br>1.2 - állami alapmunkák esetén<br>1.2-1.8 - sürgősségi tényező esetén<br>1.1-1.3 - téli terepi munkavégzés<br>0.8 - összetett, egymásra épülő feladatok');
 INSERT INTO forms (task_id,field_id,field_var,field_txt,field_type,field_length,field_list,field_help)

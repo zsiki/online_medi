@@ -104,19 +104,19 @@ INSERT INTO groups (group_id,parent_id,name,ord) VALUES (12,1,'1.2 Állami topog
 INSERT INTO groups (group_id,parent_id,name,task_id,ord) VALUES (121,1,'1.2.1 Topográfiai adatgyűjtés',121,130);
 INSERT INTO groups (group_id,parent_id,name,task_id,ord) VALUES (122,1,'1.2.2 Topográfiai adatgyűjtés ellenőrzése',122,140);
 
-INSERT INTO groups (group_id,parent_id,name,ord) VALUES (2,NULL,'8.2 Alappontsűrítés',150);
-INSERT INTO groups (group_id,parent_id,name,ord) VALUES (21,2,'8.2.1 Vízszintes alappontok',160);
-INSERT INTO groups (group_id,parent_id,name,task_id,ord) VALUES (211,2,'8.2.1.1 OGPSH pontok helyreállítása, áthelyezése, pótlása',211,170);
-INSERT INTO groups (group_id,parent_id,name,task_id,ord) VALUES (212,2,'8.2.1.2 EOVA felső- és negyedrendű pontok helyreállítása, áthelyezése, pótlása',212,180);
-INSERT INTO groups (group_id,parent_id,name,task_id,ord) VALUES (213,2,'8.2.1.3 V. rendű és felmérési alappont állandósítása, meghatározása és jelölése fotogrammetriai illesztő pontnak',213,190);
-INSERT INTO groups (group_id,parent_id,name,task_id,ord) VALUES (214,2,'8.2.1.4 Meglévő alappontok repülés előtti jelölése fotogrammetriai illesztő pontnak',214,200);
-INSERT INTO groups (group_id,parent_id,name,task_id,ord) VALUES (215,2,'8.2.1.5 Utólagos fotogrammetriai illesztő pontok meghatározása',215,210);
-INSERT INTO groups (group_id,parent_id,name,ord) VALUES (22,2,'8.2.2 Magassági alappontok',220);
-INSERT INTO groups (group_id,parent_id,name,task_id,ord) VALUES (221,2,'8.2.2.1 Magassági alappontok egyedi pótlása',221,230);
-INSERT INTO groups (group_id,parent_id,name,ord) VALUES (222,2,'8.2.2.2 Pontépítés',240);
-INSERT INTO groups (group_id,parent_id,name,task_id,ord) VALUES (2221,2,'8.2.2.2.1 Közbenső kéregmozgási pont (KKP-K pont)',2221,250);
-INSERT INTO groups (group_id,parent_id,name,task_id,ord) VALUES (2222,2,'8.2.2.2.2 Szintezési kő',2222,260);
-INSERT INTO groups (group_id,parent_id,name,task_id,ord) VALUES (2223,2,'8.2.2.2.3 Egyéb pontjelek ill. figyelemfelhívó jelek',2223,270);
+INSERT INTO groups (group_id,parent_id,name,ord) VALUES (2,NULL,'2 Alapponthálózati pontok adatbázisa',150);
+INSERT INTO groups (group_id,parent_id,name,ord) VALUES (21,2,'2.1 Vízszintes alappontok',160);
+INSERT INTO groups (group_id,parent_id,name,task_id,ord) VALUES (211,2,'2.1.1 OGPSH pontok helyreállítása, áthelyezése, pótlása',211,170);
+INSERT INTO groups (group_id,parent_id,name,task_id,ord) VALUES (212,2,'2.1.2 EOVA felső- és negyedrendű pontok helyreállítása, áthelyezése, pótlása',212,180);
+INSERT INTO groups (group_id,parent_id,name,task_id,ord) VALUES (213,2,'2.1.3 V. rendű és felmérési alappont állandósítása, meghatározása és jelölése fotogrammetriai illesztőpontnak',213,190);
+INSERT INTO groups (group_id,parent_id,name,task_id,ord) VALUES (214,2,'2.1.4 Meglévő alappontok repülés előtti jelölése fotogrammetriai illesztőpontnak',214,200);
+INSERT INTO groups (group_id,parent_id,name,task_id,ord) VALUES (215,2,'2.1.5 Utólagos fotogrammetriai illesztőpontok meghatározása',215,210);
+INSERT INTO groups (group_id,parent_id,name,ord) VALUES (22,2,'2.2 Magassági alappontok',220);
+INSERT INTO groups (group_id,parent_id,name,task_id,ord) VALUES (221,2,'2.2.1 Magassági alappontok egyedi pótlása',221,230);
+INSERT INTO groups (group_id,parent_id,name,ord) VALUES (222,2,'2.2.2 Pontépítés',240);
+INSERT INTO groups (group_id,parent_id,name,task_id,ord) VALUES (2221,2,'2.2.2.1 Közbenső kéregmozgási pont (KKP-K pont)',2221,250);
+INSERT INTO groups (group_id,parent_id,name,task_id,ord) VALUES (2222,2,'2.2.2 Szintezési kő',2222,260);
+INSERT INTO groups (group_id,parent_id,name,task_id,ord) VALUES (2223,2,'2.2.2.3 Egyéb pontjelek ill. figyelemfelhívó jelek',2223,270);
 
 INSERT INTO groups (group_id,parent_id,name,ord) VALUES (3,NULL,'8.3 Ingatlanokkal kapcsolatos geodéziai feladatok',280);
 INSERT INTO groups (group_id,parent_id,name,ord) VALUES (32,3,'8.3.2 Terület igénybevétel (kisajátítás)',290);
