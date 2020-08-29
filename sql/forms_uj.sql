@@ -128,7 +128,7 @@ INSERT INTO forms (task_id,field_id,field_var,field_txt,field_type,field_length,
 
 /*** topografiai adatgyujtes ***/
 INSERT INTO forms (task_id,field_id,field_var,field_txt,field_type,field_length,field_list,field_help)
-	VALUES (121,1,'V','Terület km<sup>2</sup> (V)','real',10,NULL,'');
+	VALUES (121,1,'V','Terület km<sup>2</sup> (V)','real',10,NULL,'Tervezési díj számítása a munkaterületre vonatkozóan <i>km<sup>2</sup></i> egységben.');
 INSERT INTO forms (task_id,field_id,field_var,field_txt,field_type,field_length,field_list,field_help)
 	VALUES (121,2,NULL,'Módosító tényezők','none',NULL,NULL,NULL);
 INSERT INTO forms (task_id,field_id,field_var,field_txt,field_type,field_length,field_list,field_help)
@@ -148,7 +148,7 @@ INSERT INTO forms (task_id,field_id,field_var,field_txt,field_type,field_length,
 
 /*** topografiai adatgyujtes ellenorzese ***/
 INSERT INTO forms (task_id,field_id,field_var,field_txt,field_type,field_length,field_list,field_help)
-	VALUES (122,1,'V','Terület km<sup>2</sup> (V)','real',10,NULL,'');
+	VALUES (122,1,'V','Terület km<sup>2</sup> (V)','real',10,NULL,'Tervezési díj számítása a munkaterületre vonatkozóan <i>km<sup>2</sup></i> egységben.');
 INSERT INTO forms (task_id,field_id,field_var,field_txt,field_type,field_length,field_list,field_help)
 	VALUES (122,2,NULL,'Módosító tényezők','none',NULL,NULL,NULL);
 INSERT INTO forms (task_id,field_id,field_var,field_txt,field_type,field_length,field_list,field_help)
@@ -166,7 +166,7 @@ INSERT INTO forms (task_id,field_id,field_var,field_txt,field_type,field_length,
 
 /*** OGPSH pont ***/
 INSERT INTO forms (task_id,field_id,field_var,field_txt,field_type,field_length,field_list,field_help)
-	VALUES (211,1,'V','Mennyiségi adat db (V)','real',10,NULL,'Pontok száma');
+	VALUES (211,1,'V','Mennyiségi adat db (V)','real',10,NULL,'Tervezési díj számítása a pontokra vonatkozóan <i>db</i> egységben.');
 INSERT INTO forms (task_id,field_id,field_var,field_txt,field_type,field_length,field_list,field_help)
 	VALUES (211,2,NULL,'Módosító tényezők','none',NULL,NULL,NULL);
 INSERT INTO forms (task_id,field_id,field_var,field_txt,field_type,field_length,field_list,field_help)
@@ -180,7 +180,7 @@ INSERT INTO forms (task_id,field_id,field_var,field_txt,field_type,field_length,
 
 /*** EOVA felső- és negyedrendű pont ***/
 INSERT INTO forms (task_id,field_id,field_var,field_txt,field_type,field_length,field_list,field_help)
-	VALUES (212,1,'V','Mennyiségi adat db (V)','real',10,NULL,'Pontok száma');
+	VALUES (212,1,'V','Mennyiségi adat db (V)','real',10,NULL,'Tervezési díj számítása a pontokra vonatkozóan <i>db</i> egységben.');
 INSERT INTO forms (task_id,field_id,field_var,field_txt,field_type,field_length,field_list,field_help)
 	VALUES (212,2,NULL,'Módosító tényezők','none',NULL,NULL,NULL);
 INSERT INTO forms (task_id,field_id,field_var,field_txt,field_type,field_length,field_list,field_help)
@@ -196,7 +196,7 @@ INSERT INTO forms (task_id,field_id,field_var,field_txt,field_type,field_length,
 
 /*** V. rendű ***/
 INSERT INTO forms (task_id,field_id,field_var,field_txt,field_type,field_length,field_list,field_help)
-	VALUES (213,1,'V','Mennyiségi adat db (V)','real',10,NULL,'Pontok száma');
+	VALUES (213,1,'V','Mennyiségi adat db (V)','real',10,NULL,'Tervezési díj számítása a meghatározandó pontokra vonatkozóan <i>db</i> egységben.<br>Legkisebb elszámolható mennyiség 3 db pont.');
 INSERT INTO forms (task_id,field_id,field_var,field_txt,field_type,field_length,field_list,field_help)
 	VALUES (213,2,NULL,'Módosító tényezők','none',NULL,NULL,NULL);
 INSERT INTO forms (task_id,field_id,field_var,field_txt,field_type,field_length,field_list,field_help)
@@ -218,7 +218,7 @@ INSERT INTO forms (task_id,field_id,field_var,field_txt,field_type,field_length,
 
 /*** Meglévő alappontok repüléss előtti jelölése ***/
 INSERT INTO forms (task_id,field_id,field_var,field_txt,field_type,field_length,field_list,field_help)
-	VALUES (214,1,'V','Mennyiségi adat db (V)','real',10,NULL,'Pontok száma');
+	VALUES (214,1,'V','Mennyiségi adat db (V)','real',10,NULL,'Tervezési díj számítása a jelölt pontokra vonatkozóan <i>db</i> egységben.<br>Legkisebb elszámolható mennyiség 3 db pont.');
 INSERT INTO forms (task_id,field_id,field_var,field_txt,field_type,field_length,field_list,field_help)
 	VALUES (214,2,NULL,'Módosító tényezők','none',NULL,NULL,NULL);
 INSERT INTO forms (task_id,field_id,field_var,field_txt,field_type,field_length,field_list,field_help)
@@ -232,7 +232,7 @@ INSERT INTO forms (task_id,field_id,field_var,field_txt,field_type,field_length,
 
 /*** Utólagos fotogrammetriai illesztőpont ***/
 INSERT INTO forms (task_id,field_id,field_var,field_txt,field_type,field_length,field_list,field_help)
-	VALUES (215,1,'V','Mennyiségi adat db (V)','real',10,NULL,'Pontok száma');
+	VALUES (215,1,'V','Mennyiségi adat db (V)','real',10,NULL,'Tervezési díj számítása a meghatározott pontokra vonatkozóan <i>db</i> egységben.<br>Legkisebb elszámolható mennyiség 3 db pont.');
 INSERT INTO forms (task_id,field_id,field_var,field_txt,field_type,field_length,field_list,field_help)
 	VALUES (215,2,NULL,'Módosító tényezők','none',NULL,NULL,NULL);
 INSERT INTO forms (task_id,field_id,field_var,field_txt,field_type,field_length,field_list,field_help)
@@ -246,7 +246,7 @@ INSERT INTO forms (task_id,field_id,field_var,field_txt,field_type,field_length,
 
 /*** Magassági alappont egyedi pótlása ***/
 INSERT INTO forms (task_id,field_id,field_var,field_txt,field_type,field_length,field_list,field_help)
-	VALUES (221,1,'V','Mennyiségi adat km (V)','real',10,NULL,'Mérés hossza');
+	VALUES (221,1,'V','Mennyiségi adat km (V)','real',10,NULL,'Tervezési díj számítása a pótolandó szakaszra vonatkozóan <i>km</i> egységben.');
 INSERT INTO forms (task_id,field_id,field_var,field_txt,field_type,field_length,field_list,field_help)
 	VALUES (221,2,NULL,'Módosító tényezők','none',NULL,NULL,NULL);
 INSERT INTO forms (task_id,field_id,field_var,field_txt,field_type,field_length,field_list,field_help)
@@ -264,7 +264,7 @@ INSERT INTO forms (task_id,field_id,field_var,field_txt,field_type,field_length,
 
 /*** Közbenső kéregmozgási pont ***/
 INSERT INTO forms (task_id,field_id,field_var,field_txt,field_type,field_length,field_list,field_help)
-	VALUES (2221,1,'V','Mennyiségi adat db (V)','real',10,NULL,'Pontok száma');
+	VALUES (2221,1,'V','Mennyiségi adat db (V)','real',10,NULL,'Tervezési díj számítása az állandósított pontokra vonatkozóan <i>db</i> egységben.');
 INSERT INTO forms (task_id,field_id,field_var,field_txt,field_type,field_length,field_list,field_help)
 	VALUES (2221,2,NULL,'Módosító tényezők','none',NULL,NULL,NULL);
 INSERT INTO forms (task_id,field_id,field_var,field_txt,field_type,field_length,field_list,field_help)
@@ -276,7 +276,7 @@ INSERT INTO forms (task_id,field_id,field_var,field_txt,field_type,field_length,
 
 /*** Szintezési kő ***/
 INSERT INTO forms (task_id,field_id,field_var,field_txt,field_type,field_length,field_list,field_help)
-	VALUES (2222,1,'V','Mennyiségi adat db (V)','real',10,NULL,'Pontok száma');
+	VALUES (2222,1,'V','Mennyiségi adat db (V)','real',10,NULL,'Tervezési díj számítása az állandósított jelekre vonatkozóan <i>db</i> egységben.');
 INSERT INTO forms (task_id,field_id,field_var,field_txt,field_type,field_length,field_list,field_help)
 	VALUES (2222,2,NULL,'Módosító tényezők','none',NULL,NULL,NULL);
 INSERT INTO forms (task_id,field_id,field_var,field_txt,field_type,field_length,field_list,field_help)
@@ -288,7 +288,7 @@ INSERT INTO forms (task_id,field_id,field_var,field_txt,field_type,field_length,
 
 /*** Egyéb pontjelek ***/
 INSERT INTO forms (task_id,field_id,field_var,field_txt,field_type,field_length,field_list,field_help)
-	VALUES (2223,1,'V','Mennyiségi adat db (V)','real',10,NULL,'Pontok száma');
+	VALUES (2223,1,'V','Mennyiségi adat db (V)','real',10,NULL,'Tervezési díj számítása az állandósított jelekre vonatkozóan <i>db</i> egységben.');
 INSERT INTO forms (task_id,field_id,field_var,field_txt,field_type,field_length,field_list,field_help)
 	VALUES (2223,2,NULL,'Módosító tényezők','none',NULL,NULL,NULL);
 INSERT INTO forms (task_id,field_id,field_var,field_txt,field_type,field_length,field_list,field_help)
@@ -300,23 +300,25 @@ INSERT INTO forms (task_id,field_id,field_var,field_txt,field_type,field_length,
 
 /*** kisajátítás nem vonalas */
 INSERT INTO forms (task_id,field_id,field_var,field_txt,field_type,field_length,field_list,field_help)
-	VALUES (321,1,'Vdb','Mennyiségi egység db (Vdb)','real',10,NULL,'Érintett földrészletek száma');
+	VALUES (321,1,NULL,'','note',NULL,NULL,'Tervezési díj számítása az igénybevételre tervezett területre vonatkozóan <i>ha</i> és <i>db</i> egységben.<br>Minimális mennyiség nincs, azt az additív tényező (A) tartalmazza.');
 INSERT INTO forms (task_id,field_id,field_var,field_txt,field_type,field_length,field_list,field_help)
-	VALUES (321,2,'Vha','Mennyiségi egység ha (Vha)','real',10,NULL,'Kisajátítással érintett terület mérete');
+	VALUES (321,2,'Vdb','Mennyiségi egység db (Vdb)','real',10,NULL,'Érintett földrészletek száma');
 INSERT INTO forms (task_id,field_id,field_var,field_txt,field_type,field_length,field_list,field_help)
-	VALUES (321,3,NULL,'Módosító tényezők','none',NULL,NULL,NULL);
+	VALUES (321,3,'Vha','Mennyiségi egység ha (Vha)','real',10,NULL,'Kisajátítással érintett terület mérete');
 INSERT INTO forms (task_id,field_id,field_var,field_txt,field_type,field_length,field_list,field_help)
-	VALUES (321,4,'m1','(m<sub>1</sub>)','real',10,NULL,'1.2 - rendezési terv egyeztetése budapesti térrajznál, szabályozás számítása');
+	VALUES (321,4,NULL,'Módosító tényezők','none',NULL,NULL,NULL);
 INSERT INTO forms (task_id,field_id,field_var,field_txt,field_type,field_length,field_list,field_help)
-	VALUES (321,5,'m2','(m<sub>2</sub>)','real',10,NULL,'1.0-1.4 eleső és hozzájövő földrészletek számítása, területre állás (budapesti térrajzhoz)');
+	VALUES (321,5,'m1','(m<sub>1</sub>)','real',10,NULL,'1.2 - rendezési terv egyeztetése budapesti térrajznál, szabályozás számítása');
 INSERT INTO forms (task_id,field_id,field_var,field_txt,field_type,field_length,field_list,field_help)
-	VALUES (321,6,'mi','Általános nehézség (m<sub>i</sub>)','real',10,NULL,'0.8-1.2 - terepmunkák esetén: domborzat, fedettség<br>0.8-1.2 - irodai munkák esetén: tagoltság, részletgazdagság, adatsűrűség<br>1.2-1.8 - sürgősségi tényező esetén<br>1.1-1.3 - téli terepi munkavégzés<br>0.8 - összetett, egymásra épülő feladatok');
+	VALUES (321,6,'m2','(m<sub>2</sub>)','real',10,NULL,'1.0-1.4 eleső és hozzájövő földrészletek számítása, területre állás (budapesti térrajzhoz)');
 INSERT INTO forms (task_id,field_id,field_var,field_txt,field_type,field_length,field_list,field_help)
-	VALUES (321,7,'K','Kiegészítő költségek (K)','real',10,NULL,'- földhivatali adatszolgáltatási, vizsgálati, bejegyzési díjak<br>- szakági adatszolgáltatási díjak<br>- többletsokszorosítás és azok kezelési és postázási költsége<br>- különleges igényű dokumentálás költségei<br>- stb.');
+	VALUES (321,7,'mi','Általános nehézség (m<sub>i</sub>)','real',10,NULL,'0.8-1.2 - terepmunkák esetén: domborzat, fedettség<br>0.8-1.2 - irodai munkák esetén: tagoltság, részletgazdagság, adatsűrűség<br>1.2-1.8 - sürgősségi tényező esetén<br>1.1-1.3 - téli terepi munkavégzés<br>0.8 - összetett, egymásra épülő feladatok');
+INSERT INTO forms (task_id,field_id,field_var,field_txt,field_type,field_length,field_list,field_help)
+	VALUES (321,8,'K','Kiegészítő költségek (K)','real',10,NULL,'- földhivatali adatszolgáltatási, vizsgálati, bejegyzési díjak<br>- szakági adatszolgáltatási díjak<br>- többletsokszorosítás és azok kezelési és postázási költsége<br>- különleges igényű dokumentálás költségei<br>- stb.');
 
 /*** kisajátítás vonalas */
 INSERT INTO forms (task_id,field_id,field_var,field_txt,field_type,field_length,field_list,field_help)
-	VALUES (322,1,'V','Mennyiségi egység km (V)','real',10,NULL,'Vonalas létesítmény hossza');
+	VALUES (322,1,'V','Mennyiségi egység km (V)','real',10,NULL,'Tervezési díj számítása az igénybevételre tervezett területre vonatkozóan <i>km</i> egységben.<br>Legkisebb elszámolható feladat 0.2 km.');
 INSERT INTO forms (task_id,field_id,field_var,field_txt,field_type,field_length,field_list,field_help)
 	VALUES (322,2,NULL,'Módosító tényezők','none',NULL,NULL,NULL);
 INSERT INTO forms (task_id,field_id,field_var,field_txt,field_type,field_length,field_list,field_help)
@@ -334,23 +336,25 @@ INSERT INTO forms (task_id,field_id,field_var,field_txt,field_type,field_length,
 
 /*** területigénybevétel előkészítése nem vonalas */
 INSERT INTO forms (task_id,field_id,field_var,field_txt,field_type,field_length,field_list,field_help)
-	VALUES (331,1,'Vdb','Mennyiségi egység db (Vdb)','real',10,NULL,'Érintett földrészletek száma');
+	VALUES (331,1,NULL,'','note',NULL,NULL,'Tervezési díj számítása az igénybevételre tervezett területre vonatkozóan <i>ha</i> és <i>db</i> egységben.<br>Minimális mennyiség nincs, azt az additív tényező (A) tartalmazza.');
 INSERT INTO forms (task_id,field_id,field_var,field_txt,field_type,field_length,field_list,field_help)
-	VALUES (331,2,'Vha','Mennyiségi egység ha (Vha)','real',10,NULL,'Érintett terület mérete');
+	VALUES (331,2,'Vdb','Mennyiségi egység db (Vdb)','real',10,NULL,'Érintett földrészletek száma');
 INSERT INTO forms (task_id,field_id,field_var,field_txt,field_type,field_length,field_list,field_help)
-	VALUES (331,3,NULL,'Módosító tényezők','none',NULL,NULL,NULL);
+	VALUES (331,3,'Vha','Mennyiségi egység ha (Vha)','real',10,NULL,'Érintett terület mérete');
 INSERT INTO forms (task_id,field_id,field_var,field_txt,field_type,field_length,field_list,field_help)
-	VALUES (331,4,'m1','(m<sub>1</sub>)','real',10,NULL,'1.2 - rendezési terv egyeztetése budapesti térrajznál, szabályozás számítása');
+	VALUES (331,4,NULL,'Módosító tényezők','none',NULL,NULL,NULL);
 INSERT INTO forms (task_id,field_id,field_var,field_txt,field_type,field_length,field_list,field_help)
-	VALUES (331,5,'m2','(m<sub>2</sub>)','real',10,NULL,'1.0-1.4 eleső és hozzájövő földrészletek számítása, területre állás (budapesti térrajzhoz)');
+	VALUES (331,5,'m1','(m<sub>1</sub>)','real',10,NULL,'1.2 - rendezési terv egyeztetése budapesti térrajznál, szabályozás számítása');
 INSERT INTO forms (task_id,field_id,field_var,field_txt,field_type,field_length,field_list,field_help)
-	VALUES (331,6,'mi','Általános nehézség (m<sub>i</sub>)','real',10,NULL,'0.8-1.2 - terepmunkák esetén: domborzat, fedettség<br>0.8-1.2 - irodai munkák esetén: tagoltság, részletgazdagság, adatsűrűség<br>1.2-1.8 - sürgősségi tényező esetén<br>1.1-1.3 - téli terepi munkavégzés<br>0.8 - összetett, egymásra épülő feladatok');
+	VALUES (331,6,'m2','(m<sub>2</sub>)','real',10,NULL,'1.0-1.4 eleső és hozzájövő földrészletek számítása, területre állás (budapesti térrajzhoz)');
 INSERT INTO forms (task_id,field_id,field_var,field_txt,field_type,field_length,field_list,field_help)
-	VALUES (331,7,'K','Kiegészítő költségek (K)','real',10,NULL,'- földhivatali adatszolgáltatási, vizsgálati, bejegyzési díjak<br>- szakági adatszolgáltatási díjak<br>- többletsokszorosítás és azok kezelési és postázási költsége<br>- különleges igényű dokumentálás költségei<br>- stb.');
+	VALUES (331,7,'mi','Általános nehézség (m<sub>i</sub>)','real',10,NULL,'0.8-1.2 - terepmunkák esetén: domborzat, fedettség<br>0.8-1.2 - irodai munkák esetén: tagoltság, részletgazdagság, adatsűrűség<br>1.2-1.8 - sürgősségi tényező esetén<br>1.1-1.3 - téli terepi munkavégzés<br>0.8 - összetett, egymásra épülő feladatok');
+INSERT INTO forms (task_id,field_id,field_var,field_txt,field_type,field_length,field_list,field_help)
+	VALUES (331,8,'K','Kiegészítő költségek (K)','real',10,NULL,'- földhivatali adatszolgáltatási, vizsgálati, bejegyzési díjak<br>- szakági adatszolgáltatási díjak<br>- többletsokszorosítás és azok kezelési és postázási költsége<br>- különleges igényű dokumentálás költségei<br>- stb.');
 
 /*** területigénybevétel előkészítése vonalas */
 INSERT INTO forms (task_id,field_id,field_var,field_txt,field_type,field_length,field_list,field_help)
-	VALUES (332,1,'V','Mennyiségi egység km (V)','real',10,NULL,'Vonalas létesítmény hossza');
+	VALUES (332,1,'V','Mennyiségi egység km (V)','real',10,NULL,'Tervezési díj számítása az igénybevételre tervezett területre vonatkozóan <i>km</i> egységben.<br>Legkisebb elszámolható feladat 0.3 km.');
 INSERT INTO forms (task_id,field_id,field_var,field_txt,field_type,field_length,field_list,field_help)
 	VALUES (332,2,NULL,'Módosító tényezők','none',NULL,NULL,NULL);
 INSERT INTO forms (task_id,field_id,field_var,field_txt,field_type,field_length,field_list,field_help)
@@ -364,7 +368,7 @@ INSERT INTO forms (task_id,field_id,field_var,field_txt,field_type,field_length,
 
 /*** vezeték ill. szolgalmi jog */
 INSERT INTO forms (task_id,field_id,field_var,field_txt,field_type,field_length,field_list,field_help)
-	VALUES (341,1,'V','Mennyiségi egység km (V)','real',10,NULL,'Vonalas létesítmény hossza');
+	VALUES (341,1,'V','Mennyiségi egység km (V)','real',10,NULL,'Tervezési díj számítása az igénybevételre tervezett területre vonatkozóan <i>km</i> egységben.<br>Legkisebb elszámolható feladat 0.3 km.');
 INSERT INTO forms (task_id,field_id,field_var,field_txt,field_type,field_length,field_list,field_help)
 	VALUES (341,2,NULL,'Módosító tényezők','none',NULL,NULL,NULL);
 INSERT INTO forms (task_id,field_id,field_var,field_txt,field_type,field_length,field_list,field_help)
@@ -380,7 +384,7 @@ INSERT INTO forms (task_id,field_id,field_var,field_txt,field_type,field_length,
 
 /*** vezeték ill. szolgalmi joghoz megállapodások kötése */
 INSERT INTO forms (task_id,field_id,field_var,field_txt,field_type,field_length,field_list,field_help)
-	VALUES (342,1,'V','Mennyiségi egység db (V)','real',10,NULL,'Kötendő megállapodások darabszáma');
+	VALUES (342,1,'V','Mennyiségi egység db (V)','real',10,NULL,'Tervezési díj számítása a tervezett megállapodásokra vonatkozóan <i>db</i> egységben.<br>Kötendő megállapodások darabszáma.');
 INSERT INTO forms (task_id,field_id,field_var,field_txt,field_type,field_length,field_list,field_help)
 	VALUES (342,2,NULL,'Módosító tényezők','none',NULL,NULL,NULL);
 INSERT INTO forms (task_id,field_id,field_var,field_txt,field_type,field_length,field_list,field_help)
@@ -404,7 +408,7 @@ INSERT INTO forms (task_id,field_id,field_var,field_txt,field_type,field_length,
 
 /*** megosztás */
 INSERT INTO forms (task_id,field_id,field_var,field_txt,field_type,field_length,field_list,field_help)
-	VALUES (361,1,'V','Mennyiségi egység db (V)','real',10,NULL,'Kialakuló új földrészletek száma');
+	VALUES (361,1,'V','Mennyiségi egység db (V)','real',10,NULL,'Tervezési díj számítása a telekalakítás után kialakuló új földrészletekre vonatkozóan <i>db</i> egységben.<br>Legkisebb elszámolható mennyiség 2 db új földrészlet. 9 földrészlet fölött egyedi ajánlat.');
 INSERT INTO forms (task_id,field_id,field_var,field_txt,field_type,field_length,field_list,field_help)
 	VALUES (361,2,NULL,'Módosító tényezők','none',NULL,NULL,NULL);
 INSERT INTO forms (task_id,field_id,field_var,field_txt,field_type,field_length,field_list,field_help)
@@ -430,10 +434,9 @@ INSERT INTO forms (task_id,field_id,field_var,field_txt,field_type,field_length,
 INSERT INTO forms (task_id,field_id,field_var,field_txt,field_type,field_length,field_list,field_help)
 	VALUES (361,13,'K','Kiegészítő költségek (K)','real',10,NULL,'- földhivatali adatszolgáltatási, vizsgálati, bejegyzési díjak<br>- szakági adatszolgáltatási díjak<br>- többletsokszorosítás és azok kezelési és postázási költsége<br>- különleges igényű dokumentálás költségei<br>- stb.');
 
-
 /*** telekegyesítés */
 INSERT INTO forms (task_id,field_id,field_var,field_txt,field_type,field_length,field_list,field_help)
-	VALUES (362,1,'V','Mennyiségi egység db (V)','real',10,NULL,'Összevonandó földrészletek száma');
+	VALUES (362,1,'V','Mennyiségi egység db (V)','real',10,NULL,'Tervezési díj számítása az összevonandó földrészletekre vonatkozóan <i>db</i> egységben.<br>Legkisebb elszámolható feladat 2 db érintett földrészlet.');
 INSERT INTO forms (task_id,field_id,field_var,field_txt,field_type,field_length,field_list,field_help)
 	VALUES (362,2,NULL,'Módosító tényezők','none',NULL,NULL,NULL);
 INSERT INTO forms (task_id,field_id,field_var,field_txt,field_type,field_length,field_list,field_help)
@@ -455,7 +458,7 @@ INSERT INTO forms (task_id,field_id,field_var,field_txt,field_type,field_length,
 
 /*** házhelyalakítás */
 INSERT INTO forms (task_id,field_id,field_var,field_txt,field_type,field_length,field_list,field_help)
-	VALUES (363,1,'V','Mennyiségi egység db (V)','real',10,NULL,'kialakuló új földrészletek száma');
+	VALUES (363,1,'V','Mennyiségi egység db (V)','real',10,NULL,'Tervezési díj számítása a telekalakítás után kialakuló új földrészletekre vonatkozóan <i>db</i> egységben.');
 INSERT INTO forms (task_id,field_id,field_var,field_txt,field_type,field_length,field_list,field_help)
 	VALUES (363,2,NULL,'Módosító tényezők','none',NULL,NULL,NULL);
 INSERT INTO forms (task_id,field_id,field_var,field_txt,field_type,field_length,field_list,field_help)
@@ -477,7 +480,7 @@ INSERT INTO forms (task_id,field_id,field_var,field_txt,field_type,field_length,
 
 /*** kitűzés */
 INSERT INTO forms (task_id,field_id,field_var,field_txt,field_type,field_length,field_list,field_help)
-	VALUES (37,1,'V','Mennyiségi egység db (V)','real',10,NULL,'kitűzendő földrészletek száma');
+	VALUES (37,1,'V','Mennyiségi egység db (V)','real',10,NULL,'Tervezési díj számítása a kitűzendő földrészletre vonatkozóan <i>db</i> egységben.<br>Legkisebb elszámolható feladat 1 db.');
 INSERT INTO forms (task_id,field_id,field_var,field_txt,field_type,field_length,field_list,field_help)
 	VALUES (37,2,NULL,'Módosító tényezők','none',NULL,NULL,NULL);
 INSERT INTO forms (task_id,field_id,field_var,field_txt,field_type,field_length,field_list,field_help)
@@ -497,7 +500,7 @@ INSERT INTO forms (task_id,field_id,field_var,field_txt,field_type,field_length,
 
 /*** épületfeltüntetés */
 INSERT INTO forms (task_id,field_id,field_var,field_txt,field_type,field_length,field_list,field_help)
-	VALUES (381,1,'V','Mennyiségi egység db (V)','real',10,NULL,'új vagy lebontott épületek darabszáma');
+	VALUES (381,1,'V','Mennyiségi egység db (V)','real',10,NULL,'Tervezési díj számítása a felmért illetve lebontott épületekre vonatkozóan <i>db</i> egységben.');
 INSERT INTO forms (task_id,field_id,field_var,field_txt,field_type,field_length,field_list,field_help)
 	VALUES (381,2,NULL,'Módosító tényezők','none',NULL,NULL,NULL);
 INSERT INTO forms (task_id,field_id,field_var,field_txt,field_type,field_length,field_list,field_help)
@@ -517,7 +520,7 @@ INSERT INTO forms (task_id,field_id,field_var,field_txt,field_type,field_length,
 
 /*** mezőgazdasági művelési ág változás */
 INSERT INTO forms (task_id,field_id,field_var,field_txt,field_type,field_length,field_list,field_help)
-	VALUES (382,1,'V','Mennyiségi egység db (V)','real',10,NULL,'bemérendő vagy megszüntetendő művelési ág határ');
+	VALUES (382,1,'V','Mennyiségi egység db (V)','real',10,NULL,'Tervezési díj számítása a felmért területre vonatkozóan <i>db</i> egységben.<br>Bemérendő vagy megszüntetendő művelési ág határ.');
 INSERT INTO forms (task_id,field_id,field_var,field_txt,field_type,field_length,field_list,field_help)
 	VALUES (382,2,NULL,'Módosító tényezők','none',NULL,NULL,NULL);
 INSERT INTO forms (task_id,field_id,field_var,field_txt,field_type,field_length,field_list,field_help)
@@ -533,49 +536,53 @@ INSERT INTO forms (task_id,field_id,field_var,field_txt,field_type,field_length,
 
 /*** társasház alapító okirat vázrajzi melléklete */
 INSERT INTO forms (task_id,field_id,field_var,field_txt,field_type,field_length,field_list,field_help)
-	VALUES (383,1,'Vszint','Mennyiségi egység db (Vszint)','real',10,NULL,'Szintek száma');
+	VALUES (383,1,NULL,'','note',NULL,NULL,'Tervezési díj számítása egy épületre vonatkozóan <i>db</i> egységben felmérés esetén.');
 INSERT INTO forms (task_id,field_id,field_var,field_txt,field_type,field_length,field_list,field_help)
-	VALUES (383,2,'Veoi','Mennyiségi egység db (Veoi)','real',10,NULL,'Önálló ingatlanok száma');
+	VALUES (383,2,'Vszint','Mennyiségi egység db (Vszint)','real',10,NULL,'Szintek száma');
 INSERT INTO forms (task_id,field_id,field_var,field_txt,field_type,field_length,field_list,field_help)
-	VALUES (383,3,NULL,'Módosító tényezők','none',NULL,NULL,NULL);
+	VALUES (383,3,'Veoi','Mennyiségi egység db (Veoi)','real',10,NULL,'Önálló ingatlanok száma');
 INSERT INTO forms (task_id,field_id,field_var,field_txt,field_type,field_length,field_list,field_help)
-	VALUES (383,4,'m1','(m<sub>1</sub>)','real',10,NULL,'1.6-1.2 ha Vszint 1 db, 2 db vagy több');
+	VALUES (383,4,NULL,'Módosító tényezők','none',NULL,NULL,NULL);
 INSERT INTO forms (task_id,field_id,field_var,field_txt,field_type,field_length,field_list,field_help)
-	VALUES (383,5,'m2','(m<sub>2</sub>)','real',10,NULL,'2.0-1.7-1.3-1.0 ha az EÖI szintenként 1–2 db, 3–5 db, 6–12 db, 13 db vagy több');
+	VALUES (383,5,'m1','(m<sub>1</sub>)','real',10,NULL,'1.6-1.2 ha Vszint 1 db, 2 db vagy több');
 INSERT INTO forms (task_id,field_id,field_var,field_txt,field_type,field_length,field_list,field_help)
-	VALUES (383,6,'m3','(m<sub>3</sub>)','real',10,NULL,'1.0-1.1-1.2-1.3 ha az EÖI szintenkénti átlag 0–49 m2, 50–89m2, 90–139m2, 140 m2 vagy több');
+	VALUES (383,6,'m2','(m<sub>2</sub>)','real',10,NULL,'2.0-1.7-1.3-1.0 ha az EÖI szintenként 1–2 db, 3–5 db, 6–12 db, 13 db vagy több');
 INSERT INTO forms (task_id,field_id,field_var,field_txt,field_type,field_length,field_list,field_help)
-	VALUES (383,7,'m4','(m<sub>4</sub>)','real',10,NULL,'2.0 meglévő papír alapú rajz átdolgozása');
+	VALUES (383,7,'m3','(m<sub>3</sub>)','real',10,NULL,'1.0-1.1-1.2-1.3 ha az EÖI szintenkénti átlag 0–49 m2, 50–89m2, 90–139m2, 140 m2 vagy több');
 INSERT INTO forms (task_id,field_id,field_var,field_txt,field_type,field_length,field_list,field_help)
-	VALUES (383,8,'m5','(m<sub>5</sub>)','real',10,NULL,'1.5 meglévő vektoros rajz átdolgozása');
+	VALUES (383,8,'m4','(m<sub>4</sub>)','real',10,NULL,'2.0 meglévő papír alapú rajz átdolgozása');
 INSERT INTO forms (task_id,field_id,field_var,field_txt,field_type,field_length,field_list,field_help)
-	VALUES (383,9,'mi','Általános nehézség (m<sub>i</sub>)','real',10,NULL,'0.8-1.2 - helyszíni felmérés esetén: esetleges akadályok<br>0.8-1.2 - irodai munkák esetén: tagoltság, részletgazdagság, adatsűrűség<br>1.2-1.8 - sürgősségi tényező esetén<br>0.8 - összetett, egymásra épülő feladatok');
+	VALUES (383,9,'m5','(m<sub>5</sub>)','real',10,NULL,'1.5 meglévő vektoros rajz átdolgozása');
 INSERT INTO forms (task_id,field_id,field_var,field_txt,field_type,field_length,field_list,field_help)
-	VALUES (383,10,'K','Kiegészítő költségek (K)','real',10,NULL,'- földhivatali adatszolgáltatási, vizsgálati, bejegyzési díjak<br>- többletsokszorosítás és azok kezelési és postázási költsége<br>- különleges igényű dokumentálás költségei<br>- stb.');
+	VALUES (383,10,'mi','Általános nehézség (m<sub>i</sub>)','real',10,NULL,'0.8-1.2 - helyszíni felmérés esetén: esetleges akadályok<br>0.8-1.2 - irodai munkák esetén: tagoltság, részletgazdagság, adatsűrűség<br>1.2-1.8 - sürgősségi tényező esetén<br>0.8 - összetett, egymásra épülő feladatok');
+INSERT INTO forms (task_id,field_id,field_var,field_txt,field_type,field_length,field_list,field_help)
+	VALUES (383,11,'K','Kiegészítő költségek (K)','real',10,NULL,'- földhivatali adatszolgáltatási, vizsgálati, bejegyzési díjak<br>- többletsokszorosítás és azok kezelési és postázási költsége<br>- különleges igényű dokumentálás költségei<br>- stb.');
 
 /*** község-, fekvéshatár módosítása */
 INSERT INTO forms (task_id,field_id,field_var,field_txt,field_type,field_length,field_list,field_help)
-	VALUES (39,1,'Vdb','Mennyiségi egység db (Vdb)','real',10,NULL,'Érintett földrészletek száma');
+	VALUES (39,1,NULL,'','note',NULL,NULL,'Tervezési díj számítása az igénybevételre tervezett területre vonatkozóan <i>ha</i> és <i>db</i> egységben. Minimális mennyiség nincs, azt az additív tényező (A) tartalmazza.');
 INSERT INTO forms (task_id,field_id,field_var,field_txt,field_type,field_length,field_list,field_help)
-	VALUES (39,2,'Vha','Mennyiségi egység ha (Vha)','real',10,NULL,'Érintett terület mérete');
+	VALUES (39,2,'Vdb','Mennyiségi egység db (Vdb)','real',10,NULL,'Érintett földrészletek száma');
 INSERT INTO forms (task_id,field_id,field_var,field_txt,field_type,field_length,field_list,field_help)
-	VALUES (39,3,NULL,'Módosító tényezők','none',NULL,NULL,NULL);
+	VALUES (39,3,'Vha','Mennyiségi egység ha (Vha)','real',10,NULL,'Érintett terület mérete');
 INSERT INTO forms (task_id,field_id,field_var,field_txt,field_type,field_length,field_list,field_help)
-	VALUES (39,4,'m1','(m<sub>1</sub>)','real',10,NULL,'1.2-1.0-0.5 ha V(ha) nem több mint 1 ha, 5 ha, 50 ha vagy több');
+	VALUES (39,4,NULL,'Módosító tényezők','none',NULL,NULL,NULL);
 INSERT INTO forms (task_id,field_id,field_var,field_txt,field_type,field_length,field_list,field_help)
-	VALUES (39,5,'m2','(m<sub>2</sub>)','real',10,NULL,'1.2-1.0-0.7 ha V(db) 1 db, 10 db, 50 db vagy több');
+	VALUES (39,5,'m1','(m<sub>1</sub>)','real',10,NULL,'1.2-1.0-0.5 ha V(ha) nem több mint 1 ha, 5 ha, 50 ha vagy több');
 INSERT INTO forms (task_id,field_id,field_var,field_txt,field_type,field_length,field_list,field_help)
-	VALUES (39,6,'m3','(m<sub>3</sub>)','real',10,NULL,'1.2 művelésből való kivonási dokumentáció elkészítése');
+	VALUES (39,6,'m2','(m<sub>2</sub>)','real',10,NULL,'1.2-1.0-0.7 ha V(db) 1 db, 10 db, 50 db vagy több');
 INSERT INTO forms (task_id,field_id,field_var,field_txt,field_type,field_length,field_list,field_help)
-	VALUES (39,7,'m4','(m<sub>4</sub>)','real',10,NULL,'0.8 fekvéshatár módosítása esetén');
+	VALUES (39,7,'m3','(m<sub>3</sub>)','real',10,NULL,'1.2 művelésből való kivonási dokumentáció elkészítése');
 INSERT INTO forms (task_id,field_id,field_var,field_txt,field_type,field_length,field_list,field_help)
-	VALUES (39,8,'mi','Általános nehézség (m<sub>i</sub>)','real',10,NULL,'0.8-1.2 - terepmunkák esetén: domborzat, fedettség<br>0.8-1.2 - irodai munkák esetén: tagoltság, részletgazdagság, adatsűrűség<br>1.2-1.8 - sürgősségi tényező esetén<br>1.1-1.3 - téli terepi munkavégzés<br>0.8 - összetett, egymásra épülő feladatok');
+	VALUES (39,8,'m4','(m<sub>4</sub>)','real',10,NULL,'0.8 fekvéshatár módosítása esetén');
 INSERT INTO forms (task_id,field_id,field_var,field_txt,field_type,field_length,field_list,field_help)
-	VALUES (39,9,'K','Kiegészítő költségek (K)','real',10,NULL,'- földhivatali adatszolgáltatási, vizsgálati, bejegyzési díjak<br>- többletsokszorosítás és azok kezelési és postázási költsége<br>- különleges igényű dokumentálás költségei<br>- stb.');
+	VALUES (39,9,'mi','Általános nehézség (m<sub>i</sub>)','real',10,NULL,'0.8-1.2 - terepmunkák esetén: domborzat, fedettség<br>0.8-1.2 - irodai munkák esetén: tagoltság, részletgazdagság, adatsűrűség<br>1.2-1.8 - sürgősségi tényező esetén<br>1.1-1.3 - téli terepi munkavégzés<br>0.8 - összetett, egymásra épülő feladatok');
+INSERT INTO forms (task_id,field_id,field_var,field_txt,field_type,field_length,field_list,field_help)
+	VALUES (39,10,'K','Kiegészítő költségek (K)','real',10,NULL,'- földhivatali adatszolgáltatási, vizsgálati, bejegyzési díjak<br>- többletsokszorosítás és azok kezelési és postázási költsége<br>- különleges igényű dokumentálás költségei<br>- stb.');
 
 /*** Új építésű földalatti vezetékek nyíltárkos bemérése (gerinc) */
 INSERT INTO forms (task_id,field_id,field_var,field_txt,field_type,field_length,field_list,field_help)
-	VALUES (4111,1,'V','Mennyiségi egység km (V)','real',10,NULL,'Felmérendő vezeték hossza');
+	VALUES (4111,1,'V','Mennyiségi egység km (V)','real',10,NULL,'Tervezési díj számítása a felmérendő vezeték hosszára a fogyasztói csatlakozások nélkül (csak gerinchossz), <i>km</i>–ben.<br>Legkisebb elszámolható mennyiség 0.1 km!');
 INSERT INTO forms (task_id,field_id,field_var,field_txt,field_type,field_length,field_list,field_help)
 	VALUES (4111,2,NULL,'Módosító tényezők','none',NULL,NULL,NULL);
 INSERT INTO forms (task_id,field_id,field_var,field_txt,field_type,field_length,field_list,field_help)
@@ -591,7 +598,7 @@ INSERT INTO forms (task_id,field_id,field_var,field_txt,field_type,field_length,
 
 /*** Új építésű földalatti csatlakozó vezetékek nyíltárkos bemérése (előfeltétele gerinc) */
 INSERT INTO forms (task_id,field_id,field_var,field_txt,field_type,field_length,field_list,field_help)
-	VALUES (4112,1,'V','Mennyiségi egység db (V)','real',10,NULL,'Felmérendő fogyasztói csatlakozó vezeték darabszáma');
+	VALUES (4112,1,'V','Mennyiségi egység db (V)','real',10,NULL,'Tervezési díj számítása a felmérendő vezetékszakasz fogyasztói csatlakozóira <i>db</i> egységben.');
 INSERT INTO forms (task_id,field_id,field_var,field_txt,field_type,field_length,field_list,field_help)
 	VALUES (4112,2,NULL,'Módosító tényezők','none',NULL,NULL,NULL);
 INSERT INTO forms (task_id,field_id,field_var,field_txt,field_type,field_length,field_list,field_help)
@@ -605,7 +612,7 @@ INSERT INTO forms (task_id,field_id,field_var,field_txt,field_type,field_length,
 
 /*** Új építésű föld felett haladó gerinc közművezetékek felmérése (légvezetékek, oszlopos csővezetékek stb.) */
 INSERT INTO forms (task_id,field_id,field_var,field_txt,field_type,field_length,field_list,field_help)
-	VALUES (4121,1,'V','Mennyiségi egység km (V)','real',10,NULL,'Felmérendő vezeték hossza');
+	VALUES (4121,1,'V','Mennyiségi egység km (V)','real',10,NULL,'Tervezési díj számítása a felmérendő vezeték hosszára a fogyasztói csatlakozások nélkül (csak gerinchossz), <i>km</i> egységben.<br>Legkisebb elszámolható mennyiség 0.1 km!');
 INSERT INTO forms (task_id,field_id,field_var,field_txt,field_type,field_length,field_list,field_help)
 	VALUES (4121,2,NULL,'Módosító tényezők','none',NULL,NULL,NULL);
 INSERT INTO forms (task_id,field_id,field_var,field_txt,field_type,field_length,field_list,field_help)
@@ -620,7 +627,7 @@ INSERT INTO forms (task_id,field_id,field_var,field_txt,field_type,field_length,
 /*** Új építésű föld felett haladó gerinchez csatlakozó közművezetékek felmérése (légvezetékek,
 oszlopos csővezetékek), (gerinc előfeltétel) */
 INSERT INTO forms (task_id,field_id,field_var,field_txt,field_type,field_length,field_list,field_help)
-	VALUES (4122,1,'V','Mennyiségi egység db (V)','real',10,NULL,'Felmérendő fogyasztói csatlakozó vezeték darabszáma');
+	VALUES (4122,1,'V','Mennyiségi egység db (V)','real',10,NULL,'Tervezési díj számítása a felmérendő vezetékszakasz fogyasztói csatlakozóira <i>db</i> egységben.');
 INSERT INTO forms (task_id,field_id,field_var,field_txt,field_type,field_length,field_list,field_help)
 	VALUES (4122,2,NULL,'Módosító tényezők','none',NULL,NULL,NULL);
 INSERT INTO forms (task_id,field_id,field_var,field_txt,field_type,field_length,field_list,field_help)
@@ -633,44 +640,48 @@ INSERT INTO forms (task_id,field_id,field_var,field_txt,field_type,field_length,
 /*** Meglévő föld feletti vezeték utólagos bemérése szakági nyilvántartáshoz, vezeték ill. szolgalmi 
 jog bejegyzéséhez (legalizációhoz) */
 INSERT INTO forms (task_id,field_id,field_var,field_txt,field_type,field_length,field_list,field_help)
-	VALUES (414,1,'Vdb','Mennyiségi egység db (Vdb)','real',10,NULL,'Fogyasztói bekötések darabszáma');
+	VALUES (414,1,NULL,'','note',NULL,NULL,'Tervezési díj számítása a felmérendő vezeték hosszára a fogyasztói csatlakozásokkal egyidejű felmérést feltételezve (településnyi volumen).');
 INSERT INTO forms (task_id,field_id,field_var,field_txt,field_type,field_length,field_list,field_help)
-	VALUES (414,2,'Vkm','Mennyiségi egység km (Vkm)','real',10,NULL,'Felmérendő gerincvezeték hossza');
+	VALUES (414,2,'Vdb','Mennyiségi egység db (Vdb)','real',10,NULL,'Fogyasztói bekötések darabszáma');
 INSERT INTO forms (task_id,field_id,field_var,field_txt,field_type,field_length,field_list,field_help)
-	VALUES (414,3,NULL,'Módosító tényezők','none',NULL,NULL,NULL);
+	VALUES (414,3,'Vkm','Mennyiségi egység km (Vkm)','real',10,NULL,'Felmérendő gerincvezeték hossza');
 INSERT INTO forms (task_id,field_id,field_var,field_txt,field_type,field_length,field_list,field_help)
-	VALUES (414,4,'m1','(m<sub>1</sub>)','real',10,NULL,'0.8-1.2 - a mérendő tartalom részletsűrűsége szerint');
+	VALUES (414,4,NULL,'Módosító tényezők','none',NULL,NULL,NULL);
 INSERT INTO forms (task_id,field_id,field_var,field_txt,field_type,field_length,field_list,field_help)
-	VALUES (414,5,'m2','(m<sub>2</sub>)','real',10,NULL,'1.4 - ha a feladat elvégzéséhez alappontsűrítés is szükséges');
+	VALUES (414,5,'m1','(m<sub>1</sub>)','real',10,NULL,'0.8-1.2 - a mérendő tartalom részletsűrűsége szerint');
 INSERT INTO forms (task_id,field_id,field_var,field_txt,field_type,field_length,field_list,field_help)
-	VALUES (414,6,'m3','(m<sub>3</sub>)','real',10,NULL,'1.1-1.3 - térkép-terep azonos pontok mérésének szükségessége esetén');
+	VALUES (414,6,'m2','(m<sub>2</sub>)','real',10,NULL,'1.4 - ha a feladat elvégzéséhez alappontsűrítés is szükséges');
 INSERT INTO forms (task_id,field_id,field_var,field_txt,field_type,field_length,field_list,field_help)
-	VALUES (414,7,'mi','Általános nehézség (m<sub>i</sub>)','real',10,NULL,'0.8-1.2 - terepmunkák esetén: domborzat, fedettség<br>0.8-1.2 - irodai munkák esetén: tagoltság, részletgazdagság, adatsűrűség<br>1.2-1.8 - sürgősségi tényező esetén<br>1.1-1.3 - téli terepi munkavégzés<br>0.8 - összetett, egymásra épülő feladatok');
+	VALUES (414,7,'m3','(m<sub>3</sub>)','real',10,NULL,'1.1-1.3 - térkép-terep azonos pontok mérésének szükségessége esetén');
 INSERT INTO forms (task_id,field_id,field_var,field_txt,field_type,field_length,field_list,field_help)
-	VALUES (414,8,'K','Kiegészítő költségek (K)','real',10,NULL,'- földhivatali adatszolgáltatási, vizsgálati, bejegyzési díjak<br>- szakági adatszolgáltatási díjak<br>- többletsokszorosítás és azok kezelési és postázási költsége<br>- különleges igényű dokumentálás költségei<br>- stb.');
+	VALUES (414,8,'mi','Általános nehézség (m<sub>i</sub>)','real',10,NULL,'0.8-1.2 - terepmunkák esetén: domborzat, fedettség<br>0.8-1.2 - irodai munkák esetén: tagoltság, részletgazdagság, adatsűrűség<br>1.2-1.8 - sürgősségi tényező esetén<br>1.1-1.3 - téli terepi munkavégzés<br>0.8 - összetett, egymásra épülő feladatok');
+INSERT INTO forms (task_id,field_id,field_var,field_txt,field_type,field_length,field_list,field_help)
+	VALUES (414,9,'K','Kiegészítő költségek (K)','real',10,NULL,'- földhivatali adatszolgáltatási, vizsgálati, bejegyzési díjak<br>- szakági adatszolgáltatási díjak<br>- többletsokszorosítás és azok kezelési és postázási költsége<br>- különleges igényű dokumentálás költségei<br>- stb.');
 
 /*** Meglévő föld alatti vezeték utólagos bemérése szakági üzemeltetői nyílvántartáshoz kutatással,
 vezeték- ill. szolgalmi jog bejegyzéséhez (legalizációhoz) */
 INSERT INTO forms (task_id,field_id,field_var,field_txt,field_type,field_length,field_list,field_help)
-	VALUES (415,1,'Vdb','Mennyiségi egység db (Vdb)','real',10,NULL,'Fogyasztói bekötések darabszáma');
+	VALUES (415,1,NULL,'','note',NULL,NULL,'Tervezési díj számítása a felmérendő vezeték hosszára a fogyasztói csatlakozásokkal egyidejű felmérést feltételezve (településnyi volumen).');
 INSERT INTO forms (task_id,field_id,field_var,field_txt,field_type,field_length,field_list,field_help)
-	VALUES (415,2,'Vkm','Mennyiségi egység km (Vkm)','real',10,NULL,'Felmérendő gerincvezeték hossza');
+	VALUES (415,2,'Vdb','Mennyiségi egység db (Vdb)','real',10,NULL,'Fogyasztói bekötések darabszáma');
 INSERT INTO forms (task_id,field_id,field_var,field_txt,field_type,field_length,field_list,field_help)
-	VALUES (415,3,NULL,'Módosító tényezők','none',NULL,NULL,NULL);
+	VALUES (415,3,'Vkm','Mennyiségi egység km (Vkm)','real',10,NULL,'Felmérendő gerincvezeték hossza');
 INSERT INTO forms (task_id,field_id,field_var,field_txt,field_type,field_length,field_list,field_help)
-	VALUES (415,4,'m1','(m<sub>1</sub>)','real',10,NULL,'0.8-1.2 - a mérendő tartalom részletsűrűsége szerint');
+	VALUES (415,4,NULL,'Módosító tényezők','none',NULL,NULL,NULL);
 INSERT INTO forms (task_id,field_id,field_var,field_txt,field_type,field_length,field_list,field_help)
-	VALUES (415,5,'m2','(m<sub>2</sub>)','real',10,NULL,'1.4 - ha a feladat elvégzéséhez alappontsűrítés is szükséges');
+	VALUES (415,5,'m1','(m<sub>1</sub>)','real',10,NULL,'0.8-1.2 - a mérendő tartalom részletsűrűsége szerint');
 INSERT INTO forms (task_id,field_id,field_var,field_txt,field_type,field_length,field_list,field_help)
-	VALUES (415,6,'m3','(m<sub>3</sub>)','real',10,NULL,'1.1-1.3 - térkép-terep azonos pontok mérésének szükségessége esetén');
+	VALUES (415,6,'m2','(m<sub>2</sub>)','real',10,NULL,'1.4 - ha a feladat elvégzéséhez alappontsűrítés is szükséges');
 INSERT INTO forms (task_id,field_id,field_var,field_txt,field_type,field_length,field_list,field_help)
-	VALUES (415,7,'mi','Általános nehézség (m<sub>i</sub>)','real',10,NULL,'0.8-1.2 - terepmunkák esetén: domborzat, fedettség<br>0.8-1.2 - irodai munkák esetén: tagoltság, részletgazdagság, adatsűrűség<br>1.2-1.8 - sürgősségi tényező esetén<br>1.1-1.3 - téli terepi munkavégzés<br>0.8 - összetett, egymásra épülő feladatok');
+	VALUES (415,7,'m3','(m<sub>3</sub>)','real',10,NULL,'1.1-1.3 - térkép-terep azonos pontok mérésének szükségessége esetén');
 INSERT INTO forms (task_id,field_id,field_var,field_txt,field_type,field_length,field_list,field_help)
-	VALUES (415,8,'K','Kiegészítő költségek (K)','real',10,NULL,'- földhivatali adatszolgáltatási, vizsgálati, bejegyzési díjak<br>- szakági adatszolgáltatási díjak<br>- többletsokszorosítás és azok kezelési és postázási költsége<br>- különleges igényű dokumentálás költségei<br>- stb.');
+	VALUES (415,8,'mi','Általános nehézség (m<sub>i</sub>)','real',10,NULL,'0.8-1.2 - terepmunkák esetén: domborzat, fedettség<br>0.8-1.2 - irodai munkák esetén: tagoltság, részletgazdagság, adatsűrűség<br>1.2-1.8 - sürgősségi tényező esetén<br>1.1-1.3 - téli terepi munkavégzés<br>0.8 - összetett, egymásra épülő feladatok');
+INSERT INTO forms (task_id,field_id,field_var,field_txt,field_type,field_length,field_list,field_help)
+	VALUES (415,9,'K','Kiegészítő költségek (K)','real',10,NULL,'- földhivatali adatszolgáltatási, vizsgálati, bejegyzési díjak<br>- szakági adatszolgáltatási díjak<br>- többletsokszorosítás és azok kezelési és postázási költsége<br>- különleges igényű dokumentálás költségei<br>- stb.');
 
 /*** Szakági üzemeltetői nyilvántartáshoz adatbázis készítése bemérés alapján */
 INSERT INTO forms (task_id,field_id,field_var,field_txt,field_type,field_length,field_list,field_help)
-	VALUES (421,1,'V','Mennyiségi egység km (V)','real',10,NULL,'Felmérendő és térképezendő vezeték hossza a fogyasztói csatlakozások hosszával együtt');
+	VALUES (421,1,'V','Mennyiségi egység km (V)','real',10,NULL,'Tervezési díj számítása a felmérendő vezeték hosszára a fogyasztói csatlakozások hosszával együtt.');
 INSERT INTO forms (task_id,field_id,field_var,field_txt,field_type,field_length,field_list,field_help)
 	VALUES (421,2,NULL,'Módosító tényezők','none',NULL,NULL,NULL);
 INSERT INTO forms (task_id,field_id,field_var,field_txt,field_type,field_length,field_list,field_help)
@@ -686,7 +697,7 @@ INSERT INTO forms (task_id,field_id,field_var,field_txt,field_type,field_length,
 
 /*** Szakági üzemeltetői nyilvántartáshoz adatbázis készítése meglévő archív munkarészek bedolgozásával */
 INSERT INTO forms (task_id,field_id,field_var,field_txt,field_type,field_length,field_list,field_help)
-	VALUES (422,1,'V','Mennyiségi egység km (V)','real',10,NULL,'Megjelenítendő vezeték hossza a fogyasztói csatlakozások hosszával együtt');
+	VALUES (422,1,'V','Mennyiségi egység km (V)','real',10,NULL,'Tervezési díj számítása a megjelenítendő vezeték hosszára a fogyasztói csatlakozások hosszával együtt.');
 INSERT INTO forms (task_id,field_id,field_var,field_txt,field_type,field_length,field_list,field_help)
 	VALUES (422,2,NULL,'Módosító tényezők','none',NULL,NULL,NULL);
 INSERT INTO forms (task_id,field_id,field_var,field_txt,field_type,field_length,field_list,field_help)
@@ -700,15 +711,17 @@ INSERT INTO forms (task_id,field_id,field_var,field_txt,field_type,field_length,
 
 /*** Szakági üzemeltetői adatbázisok változásvezetése és folyamatos adatszolgáltatás az e–közmű rendszerbe */
 INSERT INTO forms (task_id,field_id,field_var,field_txt,field_type,field_length,field_list,field_help)
-	VALUES (43,1,'E','(E)','real',10,NULL,'a feladat által megkívánt szakértelem szerinti kategória időráfordításos ajánlott díja (irodai munka)');
+	VALUES (43,1,NULL,'','note',NULL,NULL,'Tervezési díj számítása a becsült időráfordítás függvényében.');
 INSERT INTO forms (task_id,field_id,field_var,field_txt,field_type,field_length,field_list,field_help)
-	VALUES (43,2,'NAP','(NAP)','real',10,NULL,'irodai munkanapok száma');
+	VALUES (43,2,'E','(E)','real',10,NULL,'a feladat által megkívánt szakértelem szerinti kategória időráfordításos ajánlott díja (irodai munka)');
 INSERT INTO forms (task_id,field_id,field_var,field_txt,field_type,field_length,field_list,field_help)
-	VALUES (43,3,NULL,'Módosító tényezők','none',NULL,NULL,NULL);
+	VALUES (43,3,'NAP','(NAP)','real',10,NULL,'irodai munkanapok száma');
 INSERT INTO forms (task_id,field_id,field_var,field_txt,field_type,field_length,field_list,field_help)
-	VALUES (43,4,'mi','Általános nehézség (m<sub>i</sub>)','real',10,NULL,'0.8-1.2 - irodai munkák esetén: tagoltság, részletgazdagság, adatsűrűség<br>1.2-1.8 - sürgősségi tényező esetén<br>0.8 - összetett, egymásra épülő feladatok');
+	VALUES (43,4,NULL,'Módosító tényezők','none',NULL,NULL,NULL);
 INSERT INTO forms (task_id,field_id,field_var,field_txt,field_type,field_length,field_list,field_help)
-	VALUES (43,5,'K','Kiegészítő költségek (K)','real',10,NULL,'- földhivatali adatszolgáltatási, vizsgálati, bejegyzési díjak<br>- szakági adatszolgáltatási díjak<br>- többletsokszorosítás és azok kezelési és postázási költsége<br>- különleges igényű dokumentálás költségei<br>- stb.');
+	VALUES (43,5,'mi','Általános nehézség (m<sub>i</sub>)','real',10,NULL,'0.8-1.2 - irodai munkák esetén: tagoltság, részletgazdagság, adatsűrűség<br>1.2-1.8 - sürgősségi tényező esetén<br>0.8 - összetett, egymásra épülő feladatok');
+INSERT INTO forms (task_id,field_id,field_var,field_txt,field_type,field_length,field_list,field_help)
+	VALUES (43,6,'K','Kiegészítő költségek (K)','real',10,NULL,'- földhivatali adatszolgáltatási, vizsgálati, bejegyzési díjak<br>- szakági adatszolgáltatási díjak<br>- többletsokszorosítás és azok kezelési és postázási költsége<br>- különleges igényű dokumentálás költségei<br>- stb.');
 
 /*** Tervezési alaptérképek készítése nyomvonalas létesítményhez */
 INSERT INTO forms (task_id,field_id,field_var,field_txt,field_type,field_length,field_list,field_help)
