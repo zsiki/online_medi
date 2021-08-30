@@ -126,7 +126,7 @@ function mnap(form) {
 			ind = i;
 		} else if (form.elements[i].name == "K" && form.elements[i].type == 'text' && form.elements[i].value.length > 0) {
 			ww = form.elements[i].value.replace(/ /g,'');	// remove spaces
-			sum += ww;
+			sum += parseFloat(ww);
 		} else if (form.elements[i].type == 'text' && form.elements[i].value.length > 0) {
 			ww = form.elements[i].value.replace(/ /g,'');	// remove spaces
 			if (re.exec(ww) == null) {
